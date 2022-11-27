@@ -1,62 +1,31 @@
-<script setup lang="ts">
-definePageMeta({
-  title: 'Md. Al Asad Nur Riyad'
-})
-
-</script>
-
 <template>
-  <div class="container gradient-text">
-    <h1>Md. Al Asad Nur Riyad</h1>
-    <div class="link">
-      <a href="https://github.com/nurRiyad">Github</a>
-      <a href="https://www.linkedin.com/in/nur-riyad/">LinkedIn</a>
+  <div class="flex flex-col justify-center items-center h-screen bg-slate-300">
+    <div class="max-w-sm mx-auto p-8 bg-white rounded-xl shadow-md space-y-3">
+      <img
+        class="h-24 mx-auto rounded-full ring-4 ring-blue-500"
+        src="@/assets/img/profilepic.webp"
+        alt="My profile picture"
+      />
+      <div class="space-y-2">
+        <div>
+          <p class="text-lg text-black font-semibold">Md. Al Asad Nur Riyad</p>
+          <p class="text-gray-600 text-sm">Software Engineer @AppsCode</p>
+        </div>
+        <div class="flex space-x-2 justify-center">
+          <a href="https://github.com/nurRiyad">
+            <IconsGithub :width="25" />
+          </a>
+          <a href="https://www.linkedin.com/in/nur-riyad">
+            <IconsLinkedin :width="25" />
+          </a>
+          <a href="https://twitter.com/qdnvubp">
+            <IconsTwitter :width="25" />
+          </a>
+          <a href="https://stackoverflow.com/users/16781395/nur-riyad">
+            <IconsStackoverflow :width="25" />
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </template>
-
-<style>
-html, body {
-  margin: 0;
-  padding: 0;
-}
-.container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  overflow: hidden;
-}
-.gradient-text {
-  /* Fallback: Set a background color. */
-  background-color: red;
-  
-  /* Create the gradient. */
-  background-image: linear-gradient(45deg, #f3ec78, #af4261);
-  
-  /* Set the background size and repeat properties. */
-  background-size: 100%;
-  background-repeat: repeat;
-
-  /* Use the text as a mask for the background. */
-  /* This will show the gradient as a text color rather than element bg. */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-}
-
-h1 {
-  font-family: "Archivo Black", sans-serif;
-  font-weight: normal;
-  font-size: 3em;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-bottom: -0.25em;
-}
-a{
-  margin: 5px;
-}
-</style>

@@ -12,17 +12,30 @@
           <p class="text-gray-600 text-sm">Software Engineer @AppsCode</p>
         </div>
         <div class="flex space-x-2 justify-center">
-          <a target="_blank" href="https://github.com/nurRiyad">
+          <a
+            target="_blank"
+            href="https://github.com/nurRiyad"
+            aria-label="Github"
+          >
             <IconsGithub :width="25" />
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/nur-riyad">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/nur-riyad"
+            aria-label="LinkedIn"
+          >
             <IconsLinkedin :width="25" />
           </a>
-          <a target="_blank" href="https://twitter.com/qdnvubp">
+          <a
+            target="_blank"
+            href="https://twitter.com/qdnvubp"
+            aria-label="Twitter"
+          >
             <IconsTwitter :width="25" />
           </a>
           <a
             target="_blank"
+            aria-label="Stackoverflow"
             href="https://stackoverflow.com/users/16781395/nur-riyad"
           >
             <IconsStackoverflow :width="25" />

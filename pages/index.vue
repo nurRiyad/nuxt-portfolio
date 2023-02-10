@@ -5,11 +5,15 @@
         class="h-24 mx-auto rounded-full ring-4 ring-blue-500"
         src="@/assets/img/profilepic.webp"
         alt="My profile picture"
-      />
+      >
       <div class="space-y-2">
         <div>
-          <p class="text-lg text-black font-semibold">Md. Al Asad Nur Riyad</p>
-          <p class="text-gray-600 text-sm">Software Engineer @AppsCode</p>
+          <p class="text-lg text-black font-semibold">
+            Md. Al Asad Nur Riyad
+          </p>
+          <p class="text-gray-600 text-sm">
+            Software Engineer @AppsCode
+          </p>
         </div>
         <div class="flex space-x-2 justify-center">
           <a

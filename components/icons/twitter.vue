@@ -1,10 +1,10 @@
 <script setup lang="ts">
 interface Props {
-  width: number;
+  width: number
 }
 withDefaults(defineProps<Props>(), {
   width: 32,
-});
+})
 </script>
 
 <template>

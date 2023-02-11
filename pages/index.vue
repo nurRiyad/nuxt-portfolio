@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-14">
+  <div class="space-y-14 ">
     <MainBoyd />
     <Features />
     <Projects />

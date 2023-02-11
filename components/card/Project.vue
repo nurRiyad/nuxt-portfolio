@@ -20,10 +20,10 @@ withDefaults(defineProps<Props>(), {
   <a
     :href="link"
     target="_blank"
-    class="overflow-hidden border shadow rounded-xl"
+    class="overflow-hidden border dark:border-gray-700 shadow rounded-xl"
   >
     <div
-      class="flex flex-col justify-between gap-y-2  hover:scale-105 ease-out transition-transform px-5 py-3"
+      class="flex flex-col justify-between gap-y-2  hover:scale-[1.03] ease-out transition-transform px-5 py-3"
     >
       <div class="flex flex-col gap-y-2">
         <span class="text-xl font-medium">{{ name }}</span>

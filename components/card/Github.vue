@@ -3,7 +3,9 @@
 </script>
 
 <template>
-  <div
+  <a
+    href="https://github.com/nurRiyad"
+    target="_blank"
     class=" overflow-hidden border dark:border-gray-700 rounded-xl shadow"
   >
     <div
@@ -31,5 +33,5 @@
         </div>
       </div>
     </div>
-  </div>
+  </a>
 </template>

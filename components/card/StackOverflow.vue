@@ -3,7 +3,9 @@
 </script>
 
 <template>
-  <div
+  <a
+    href="https://stackoverflow.com/users/16781395/nur-riyad"
+    target="_blank"
     class=" overflow-hidden border dark:border-gray-700 rounded-xl shadow"
   >
     <div
@@ -41,5 +43,5 @@
         </div>
       </div>
     </div>
-  </div>
+  </a>
 </template>

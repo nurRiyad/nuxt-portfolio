@@ -11,19 +11,19 @@ const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'da
           Al Asad Nur Riyad
         </h1>
         <div class="flex space-x-4">
-          <a href="https://twitter.com/" title="Twitter" class="hover:scale-110 transition-all ease-out">
+          <a href="https://twitter.com/qdnvubp" target="_blank" title="Twitter" class="hover:scale-110 transition-all ease-out">
             <Icon name="fa-brands:twitter" size="20" />
           </a>
-          <a href="https://github.com/" title="GitHub" class="hover:scale-110 transition-all ease-out">
+          <a href="https://github.com/nurRiyad" target="_blank" title="GitHub" class="hover:scale-110 transition-all ease-out">
             <Icon name="fa-brands:github" size="20" />
           </a>
-          <a href="https://twitter.com/" title="Twitter" class="hover:scale-110 transition-all ease-out">
+          <a href="https://www.linkedin.com/in/nur-riyad/" target="_blank" title="Twitter" class="hover:scale-110 transition-all ease-out">
             <Icon name="fa-brands:linkedin" size="20" />
           </a>
-          <a href="https://github.com/" title="GitHub" class="hover:scale-110 transition-all ease-out">
+          <a href="https://stackoverflow.com/users/16781395/nur-riyad" target="_blank" title="GitHub" class="hover:scale-110 transition-all ease-out">
             <Icon name="academicons:stackoverflow-square" size="20" />
           </a>
-          <a href="https://github.com/" title="GitHub" class="hover:scale-110 transition-all ease-out">
+          <a href="mailto:asadnurriyad@gmail.com" title="GitHub" class="hover:scale-110 transition-all ease-out">
             <Icon name="bxl:gmail" size="20" />
           </a>
           <a v-if="colorMode.value === 'dark'" name="dark-mode" title="GitHub" class="hover:scale-110 transition-all ease-out hover:cursor-pointer" @click="onClick">
@@ -42,7 +42,7 @@ const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'da
       </div>
     </div>
     <p class="pt-4">
-      Hi! I'm a software engineer. Currently working at @AppsCode in Bytebuilder team. I enjoy creating interesting projects and solving problems on online judges whenever I'm not coding for work.
+      Hello, fellow human! I'm a software wizard who spends most of their day crafting code spells at <span class="font-medium">@AppsCode</span>  in the <span class="font-medium">Bytebuilder</span> team. When I'm not crafting code, you can find me summoning solutions to problems on online judges. Just don't ask me to cast any love spells, my magic only works on machines!
     </p>
   </div>
 </template>

@@ -6,7 +6,7 @@ const Ojs = [
     rating: 1822,
     participate: 32,
     solved: 201,
-    link: 'https://github.com/nurRiyad/hacker-news',
+    link: 'https://www.codechef.com/users/nur_riyad',
   },
   {
     name: 'Codeforces',
@@ -14,21 +14,21 @@ const Ojs = [
     rating: 1545,
     participate: 76,
     solved: 864,
-    link: 'https://github.com/nurRiyad/hacker-news',
+    link: 'https://codeforces.com/profile/nur_riyad',
   }, {
     name: 'AtCoder',
     handle: 'nur_riyad',
     rating: 837,
     participate: 19,
     solved: 200,
-    link: 'https://github.com/nurRiyad/hacker-news',
+    link: 'https://atcoder.jp/users/nur_riyad',
   }, {
     name: 'LeetCode',
     handle: 'nur_riyad',
     rating: 1532,
     participate: 5,
     solved: 121,
-    link: 'https://github.com/nurRiyad/hacker-news',
+    link: 'https://leetcode.com/nur_riyad/',
   },
 ]
 </script>

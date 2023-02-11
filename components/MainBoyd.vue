@@ -7,16 +7,25 @@
         </h1>
         <div class="flex space-x-4">
           <a href="https://twitter.com/" title="Twitter" class="hover:scale-105 transition-all ease-out">
-            <Icon name="fa-brands:twitter" class="w-5 h-5" />
+            <Icon name="fa-brands:twitter" size="20" />
           </a>
           <a href="https://github.com/" title="GitHub" class="hover:scale-105 transition-all ease-out">
-            <Icon name="fa-brands:github" class="w-5 h-5" />
+            <Icon name="fa-brands:github" size="20" />
           </a>
           <a href="https://twitter.com/" title="Twitter" class="hover:scale-105 transition-all ease-out">
-            <Icon name="fa-brands:linkedin" class="w-5 h-5" />
+            <Icon name="fa-brands:linkedin" size="20" />
           </a>
           <a href="https://github.com/" title="GitHub" class="hover:scale-105 transition-all ease-out">
-            <Icon name="academicons:stackoverflow-square" class="w-5 h-5" />
+            <Icon name="academicons:stackoverflow-square" size="20" />
+          </a>
+          <a href="https://github.com/" title="GitHub" class="hover:scale-105 transition-all ease-out">
+            <Icon name="bxl:gmail" size="20" />
+          </a>
+          <a href="https://github.com/" title="GitHub" class="hover:scale-105 transition-all ease-out">
+            <Icon name="material-symbols:sunny-rounded" size="20" />
+          </a>
+          <a href="https://github.com/" title="GitHub" class="hover:scale-105 transition-all ease-out">
+            <Icon name="bx:bxs-moon" size="20" />
           </a>
         </div>
       </div>

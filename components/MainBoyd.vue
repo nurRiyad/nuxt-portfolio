@@ -5,8 +5,8 @@ const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'da
 
 <template>
   <div>
-    <div class="flex">
-      <div class="w-3/5">
+    <div class="grid grid-cols-3">
+      <div class="col-span-2">
         <h1 class="text-3xl sm:text-4xl font-bold items-start  pt-2 pb-4">
           Al Asad Nur Riyad
         </h1>
@@ -35,13 +35,13 @@ const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'da
           </a>
         </div>
       </div>
-      <div class="w-2/5 flex justify-center">
+      <div class="justify-self-start flex justify-center grid-col">
         <div class="h-24 sm:h-28 w-24 sm:w-28 rounded-full overflow-hidden">
           <img src="/rsz_1riyad.jpg" alt="Profile Picture">
         </div>
       </div>
     </div>
-    <p class="pt-4">
+    <p class="pt-4 text-sm sm:text-base">
       Hello, fellow human! I'm a software wizard who spends most of his day crafting code spells at <span class="font-medium">@AppsCode</span>  in the <span class="font-medium">Bytebuilder</span> team. When I'm not crafting code, you can find me summoning solutions to problems on online judges. Just don't ask me to cast any love spells, my magic only works on machines!
     </p>
   </div>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1
-      class="text-3xl font-bold pb-5"
+      class="text-2xl sm:text-3xl font-bold pb-5"
     >
       Things I am familiar with
     </h1>

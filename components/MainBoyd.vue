@@ -1,28 +1,28 @@
 <template>
   <div>
-    <div class="flex items-center">
+    <div class="flex">
       <div class="w-3/5">
-        <h1 class="text-4xl font-bold items-start text-black ">
+        <h1 class="text-3xl sm:text-4xl font-bold items-start text-black pt-2 pb-4">
           Al Asad Nur Riyad
         </h1>
-        <div class="flex space-x-3">
-          <a href="https://twitter.com/" title="Twitter" class="dark:text-primary-100 hover:text-primary-700 dark:hover:text-primary-300">
+        <div class="flex space-x-4">
+          <a href="https://twitter.com/" title="Twitter" class="hover:scale-105 transition-all ease-out">
             <Icon name="fa-brands:twitter" class="w-5 h-5" />
           </a>
-          <a href="https://github.com/" title="GitHub" class="dark:text-primary-100 hover:text-primary-700 dark:hover:text-primary-300">
+          <a href="https://github.com/" title="GitHub" class="hover:scale-105 transition-all ease-out">
             <Icon name="fa-brands:github" class="w-5 h-5" />
           </a>
-          <a href="https://twitter.com/" title="Twitter" class="dark:text-primary-100 hover:text-primary-700 dark:hover:text-primary-300">
+          <a href="https://twitter.com/" title="Twitter" class="hover:scale-105 transition-all ease-out">
             <Icon name="fa-brands:linkedin" class="w-5 h-5" />
           </a>
-          <a href="https://github.com/" title="GitHub" class="dark:text-primary-100 hover:text-primary-700 dark:hover:text-primary-300">
+          <a href="https://github.com/" title="GitHub" class="hover:scale-105 transition-all ease-out">
             <Icon name="academicons:stackoverflow-square" class="w-5 h-5" />
           </a>
         </div>
       </div>
       <div class="w-2/5 flex justify-center">
-        <div class="h-32 w-32 rounded-full overflow-hidden">
-          <img src="https://www.nurriyad.xyz/_nuxt/profilepic.e7877b41.webp" alt="Profile Picture">
+        <div class="h-24 sm:h-28 w-24 sm:w-28 rounded-full overflow-hidden">
+          <img src="/rsz_1riyad.jpg" alt="Profile Picture">
         </div>
       </div>
     </div>

@@ -12,15 +12,15 @@
       </li>
       <li class="flex items-center space-x-3">
         <Icon name="ph:check-circle" size="25" class="text-cyan-500" />
-        <p>Framework Vue, Express</p>
-      </li>
-      <li class="flex items-center space-x-3">
-        <Icon name="ph:check-circle" size="25" class="text-cyan-500" />
-        <p>Database Mongodb, Postgress</p>
+        <p>Framework Vue, Nodejs, Express</p>
       </li>
       <li class="flex items-center space-x-3">
         <Icon name="ph:check-circle" size="25" class="text-cyan-500" />
         <p>Meta Framework Nuxt</p>
+      </li>
+      <li class="flex items-center space-x-3">
+        <Icon name="ph:check-circle" size="25" class="text-cyan-500" />
+        <p>Database PostgreSQL, Mongodb</p>
       </li>
       <li class="flex items-center space-x-3">
         <Icon name="ph:check-circle" size="25" class="text-cyan-500" />

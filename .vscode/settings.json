@@ -5,6 +5,8 @@
     "source.fixAll.eslint": true
   },
   "cSpell.words": [
-    "antfu"
+    "antfu",
+    "Supabase",
+    "Vite"
   ]
 }

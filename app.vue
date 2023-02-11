@@ -1,4 +1,10 @@
 <script setup lang="ts">
+useHead({
+  htmlAttrs: {
+    lang: 'en',
+  },
+})
+
 useServerSeoMeta({
   title: 'Al Asad Nur Riyad, Software Engineer @AppsCode in the Bytebuilder Team',
   ogTitle: 'Al Asad Nur Riyad, Software Engineer @AppsCode in the Bytebuilder Team',

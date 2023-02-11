@@ -16,7 +16,7 @@
             <Icon name="fa-brands:linkedin" class="w-5 h-5" />
           </a>
           <a href="https://github.com/" title="GitHub" class="dark:text-primary-100 hover:text-primary-700 dark:hover:text-primary-300">
-            <Icon name="fa-brands:github" class="w-5 h-5" />
+            <Icon name="academicons:stackoverflow-square" class="w-5 h-5" />
           </a>
         </div>
       </div>

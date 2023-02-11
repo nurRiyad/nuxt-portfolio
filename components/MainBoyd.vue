@@ -42,7 +42,7 @@ const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'da
       </div>
     </div>
     <p class="pt-4">
-      Hello, fellow human! I'm a software wizard who spends most of their day crafting code spells at <span class="font-medium">@AppsCode</span>  in the <span class="font-medium">Bytebuilder</span> team. When I'm not crafting code, you can find me summoning solutions to problems on online judges. Just don't ask me to cast any love spells, my magic only works on machines!
+      Hello, fellow human! I'm a software wizard who spends most of his day crafting code spells at <span class="font-medium">@AppsCode</span>  in the <span class="font-medium">Bytebuilder</span> team. When I'm not crafting code, you can find me summoning solutions to problems on online judges. Just don't ask me to cast any love spells, my magic only works on machines!
     </p>
   </div>
 </template>

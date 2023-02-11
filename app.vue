@@ -21,9 +21,15 @@ useHead({
 </script>
 
 <template>
-  <div class="">
+  <div>
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
   </div>
 </template>
+
+<style lang="postcss">
+body {
+  @apply bg-gray-50
+}
+</style>

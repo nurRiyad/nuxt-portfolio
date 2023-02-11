@@ -35,8 +35,8 @@
         </div>
       </div>
     </div>
-    <p class="pt-3">
-      I'm a software engineer at AppsCode who loves to solve data structure and algorithm problems. In my free time, I enjoy creating small projects and solving problems on online judges whenever I'm not coding for work.
+    <p class="pt-4">
+      Hi! I'm a software engineer. Currently working at @AppsCode in Bytebuilder team. I enjoy creating interesting projects and solving problems on online judges whenever I'm not coding for work.
     </p>
   </div>
 </template>

@@ -29,7 +29,7 @@ withDefaults(defineProps<Props>(), {
         <span class="text-xl font-medium">{{ name }}</span>
         <p>{{ description }}</p>
       </div>
-      <div class="flex items-center gap-x-5 ">
+      <div class="flex items-center gap-x-5">
         <div class="flex gap-x-1 items-center">
           <Icon name="mdi:star-outline" size="20" />
           <span>{{ star }}</span>

@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss', 'nuxt-icon'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    'nuxt-icon',
+    '@nuxtjs/color-mode',
+  ],
   app: {
     head: {
       charset: 'utf-16',
@@ -8,6 +12,11 @@ export default defineNuxtConfig({
       title: 'Al Asad Nur Riyad',
       meta: [{ name: 'description', content: 'My personal site.' }],
     },
+  },
+
+  // https://color-mode.nuxtjs.org
+  colorMode: {
+    classSuffix: '',
   },
 
   plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],

@@ -16,7 +16,7 @@ withDefaults(defineProps<Props>(), {
 
 <template>
   <div
-    class=" overflow-hidden border border-neutral-700 rounded-xl"
+    class=" overflow-hidden border rounded-xl shadow"
   >
     <div
       class="flex flex-col justify-between gap-y-2  hover:scale-105 ease-out transition-transform px-5 py-3"

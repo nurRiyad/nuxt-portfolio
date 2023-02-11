@@ -17,19 +17,19 @@ const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'da
           <a href="https://github.com/nurRiyad" target="_blank" title="GitHub" class="hover:scale-110 transition-all ease-out">
             <Icon name="fa-brands:github" size="20" />
           </a>
-          <a href="https://www.linkedin.com/in/nur-riyad/" target="_blank" title="Twitter" class="hover:scale-110 transition-all ease-out">
+          <a href="https://www.linkedin.com/in/nur-riyad/" target="_blank" title="LinkedIn" class="hover:scale-110 transition-all ease-out">
             <Icon name="fa-brands:linkedin" size="20" />
           </a>
-          <a href="https://stackoverflow.com/users/16781395/nur-riyad" target="_blank" title="GitHub" class="hover:scale-110 transition-all ease-out">
+          <a href="https://stackoverflow.com/users/16781395/nur-riyad" target="_blank" title="Stackoverflow" class="hover:scale-110 transition-all ease-out">
             <Icon name="academicons:stackoverflow-square" size="20" />
           </a>
-          <a href="mailto:asadnurriyad@gmail.com" title="GitHub" class="hover:scale-110 transition-all ease-out">
+          <a href="mailto:asadnurriyad@gmail.com" title="Gmail" class="hover:scale-110 transition-all ease-out">
             <Icon name="bxl:gmail" size="20" />
           </a>
-          <a v-if="colorMode.value === 'dark'" name="dark-mode" title="GitHub" class="hover:scale-110 transition-all ease-out hover:cursor-pointer" @click="onClick">
+          <a v-if="colorMode.value === 'dark'" name="dark-mode" title="Dark" class="hover:scale-110 transition-all ease-out hover:cursor-pointer" @click="onClick">
             <Icon name="bx:bxs-moon" size="20" />
           </a>
-          <a v-else name="light-mode" title="GitHub" class="hover:scale-110 transition-all ease-out hover:cursor-pointer" @click="onClick">
+          <a v-else name="light-mode" title="Light" class="hover:scale-110 transition-all ease-out hover:cursor-pointer" @click="onClick">
 
             <Icon name="material-symbols:sunny-rounded" size="20" />
           </a>

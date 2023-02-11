@@ -29,7 +29,7 @@ const schools = [
     <h1 class="text-3xl font-bold pb-5">
       Educations
     </h1>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
       <template v-for="school in schools" :key="school.name">
         <CardEducation :name="school.name" :gpa="school.gpa" :session="school.session" :institute="school.institute" />
       </template>

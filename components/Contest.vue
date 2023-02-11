@@ -38,7 +38,7 @@ const Ojs = [
     <h1 class="text-3xl font-bold pb-5">
       Competitive Programming
     </h1>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
       <template v-for="oj in Ojs" :key="oj.name">
         <CardContest :name="oj.name" :handle="oj.handle" :rating="oj.rating" :link="oj.link" :participate="oj.participate" :solved="oj.solved" />
       </template>

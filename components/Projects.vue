@@ -36,7 +36,7 @@ const Projects = [
     <h1 class="text-3xl font-bold pb-5">
       Projects
     </h1>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
       <template v-for="project in Projects" :key="project.name">
         <CardProject :name="project.name" :description="project.description" :star="project.star" :link="project.link" :language="project.language" />
       </template>

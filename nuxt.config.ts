@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'nuxt-icon',
     '@nuxtjs/color-mode',
+    '@nuxtjs/robots',
   ],
   app: {
     head: {
@@ -11,6 +12,15 @@ export default defineNuxtConfig({
       viewport: 'width=500, initial-scale=1',
       title: 'Al Asad Nur Riyad',
       meta: [{ name: 'description', content: 'My personal site.' }],
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+        { rel: 'manifest', href: '/site.webmanifest' },
+
+      ],
+
     },
   },
 

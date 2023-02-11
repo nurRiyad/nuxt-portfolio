@@ -5,10 +5,6 @@ useHead({
   },
   meta: [
     { name: 'description', content: 'Al Asad Nur Riyad\'s personal website ✨' },
-    { property: 'og:image', content: 'https://nurriyad.xyz/social-card.webp' },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:site', content: '@nuxt_js' },
-    { name: 'twitter:creator', content: '@nuxt_js' },
   ],
   link: [
     {
@@ -17,6 +13,15 @@ useHead({
       href: '/riyad.png',
     },
   ],
+})
+
+useServerSeoMeta({
+  title: 'Meet the Code Wizard: Crafting Magic at @AppsCode in the Bytebuilder Team',
+  ogTitle: 'Meet the Code Wizard: Crafting Magic at @AppsCode in the Bytebuilder Team',
+  description: 'Meet the Code Wizard: Crafting Magic at @AppsCode in the Bytebuilder Team',
+  ogDescription: 'Meet the Code Wizard: Crafting Magic at @AppsCode in the Bytebuilder Team',
+  ogImage: 'public/social-card.webp',
+  twitterCard: 'summary_large_image',
 })
 </script>
 

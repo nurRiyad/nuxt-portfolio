@@ -1,20 +1,4 @@
 <script setup lang="ts">
-useHead({
-  htmlAttrs: {
-    lang: 'en',
-  },
-  meta: [
-    { name: 'description', content: 'Al Asad Nur Riyad\'s personal website ✨' },
-  ],
-  link: [
-    {
-      rel: 'icon',
-      type: 'image/webp',
-      href: '/riyad.png',
-    },
-  ],
-})
-
 useServerSeoMeta({
   title: 'Al Asad Nur Riyad, Software Engineer @AppsCode in the Bytebuilder Team',
   ogTitle: 'Al Asad Nur Riyad, Software Engineer @AppsCode in the Bytebuilder Team',

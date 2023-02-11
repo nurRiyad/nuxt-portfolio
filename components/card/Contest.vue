@@ -22,15 +22,15 @@ withDefaults(defineProps<Props>(), {
   <a
     :href="link"
     target="_blank"
-    class="overflow-hidden border rounded-xl shadow"
+    class="overflow-hidden border dark:border-gray-700 rounded-xl shadow"
   >
     <div
-      class="flex flex-col justify-between gap-y-2  hover:scale-105 ease-out transition-transform px-5 py-3"
+      class="flex flex-col justify-between gap-y-2  hover:scale-[1.03] ease-out transition-transform px-5 py-3"
     >
       <div class="flex flex-col gap-y-2">
         <div class="flex items-baseline justify-between">
           <span class="text-xl font-medium">{{ name }}</span>
-          <span class="font-medium bg-gray-300 rounded-md px-2">{{ handle }}</span>
+          <span class="font-medium bg-gray-300 dark:bg-gray-900 rounded-md px-2">{{ handle }}</span>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="ph:medal" />

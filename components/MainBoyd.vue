@@ -7,7 +7,7 @@ const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'da
   <div>
     <div class="flex">
       <div class="w-3/5">
-        <h1 class="text-3xl sm:text-4xl font-bold items-start text-black pt-2 pb-4">
+        <h1 class="text-3xl sm:text-4xl font-bold items-start  pt-2 pb-4">
           Al Asad Nur Riyad
         </h1>
         <div class="flex space-x-4">
@@ -27,10 +27,11 @@ const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'da
             <Icon name="bxl:gmail" size="20" />
           </a>
           <a v-if="colorMode.value === 'dark'" name="dark-mode" title="GitHub" class="hover:scale-110 transition-all ease-out hover:cursor-pointer" @click="onClick">
-            <Icon name="material-symbols:sunny-rounded" size="20" />
+            <Icon name="bx:bxs-moon" size="20" />
           </a>
           <a v-else name="light-mode" title="GitHub" class="hover:scale-110 transition-all ease-out hover:cursor-pointer" @click="onClick">
-            <Icon name="bx:bxs-moon" size="20" />
+
+            <Icon name="material-symbols:sunny-rounded" size="20" />
           </a>
         </div>
       </div>

@@ -1,3 +1,8 @@
+<script setup lang="ts">
+const colorMode = useColorMode()
+const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'dark') : (colorMode.preference = 'light'))
+</script>
+
 <template>
   <div>
     <div class="flex">
@@ -6,25 +11,25 @@
           Al Asad Nur Riyad
         </h1>
         <div class="flex space-x-4">
-          <a href="https://twitter.com/" title="Twitter" class="hover:scale-105 transition-all ease-out">
+          <a href="https://twitter.com/" title="Twitter" class="hover:scale-110 transition-all ease-out">
             <Icon name="fa-brands:twitter" size="20" />
           </a>
-          <a href="https://github.com/" title="GitHub" class="hover:scale-105 transition-all ease-out">
+          <a href="https://github.com/" title="GitHub" class="hover:scale-110 transition-all ease-out">
             <Icon name="fa-brands:github" size="20" />
           </a>
-          <a href="https://twitter.com/" title="Twitter" class="hover:scale-105 transition-all ease-out">
+          <a href="https://twitter.com/" title="Twitter" class="hover:scale-110 transition-all ease-out">
             <Icon name="fa-brands:linkedin" size="20" />
           </a>
-          <a href="https://github.com/" title="GitHub" class="hover:scale-105 transition-all ease-out">
+          <a href="https://github.com/" title="GitHub" class="hover:scale-110 transition-all ease-out">
             <Icon name="academicons:stackoverflow-square" size="20" />
           </a>
-          <a href="https://github.com/" title="GitHub" class="hover:scale-105 transition-all ease-out">
+          <a href="https://github.com/" title="GitHub" class="hover:scale-110 transition-all ease-out">
             <Icon name="bxl:gmail" size="20" />
           </a>
-          <a href="https://github.com/" title="GitHub" class="hover:scale-105 transition-all ease-out">
+          <a v-if="colorMode.value === 'dark'" name="dark-mode" title="GitHub" class="hover:scale-110 transition-all ease-out hover:cursor-pointer" @click="onClick">
             <Icon name="material-symbols:sunny-rounded" size="20" />
           </a>
-          <a href="https://github.com/" title="GitHub" class="hover:scale-105 transition-all ease-out">
+          <a v-else name="light-mode" title="GitHub" class="hover:scale-110 transition-all ease-out hover:cursor-pointer" @click="onClick">
             <Icon name="bx:bxs-moon" size="20" />
           </a>
         </div>

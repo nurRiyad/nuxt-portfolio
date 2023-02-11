@@ -29,15 +29,13 @@ withDefaults(defineProps<Props>(), {
         <span class="text-xl font-medium">{{ name }}</span>
         <p>{{ description }}</p>
       </div>
-      <div class="flex items-center gap-x-5">
+      <div class="flex items-center gap-x-5 ">
         <div class="flex gap-x-1 items-center">
-          <span>
-            <IconsStar />
-          </span>
+          <Icon name="mdi:star-outline" size="20" />
           <span>{{ star }}</span>
         </div>
         <div class="flex space-x-2 items-center">
-          <span> <Icon name="ph-tag-bold" size="1em" /> </span>
+          <Icon name="ph-tag-bold" size="18" />
           <div class="">{{ language }}</div>
         </div>
       </div>

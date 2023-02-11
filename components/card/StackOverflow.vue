@@ -27,16 +27,16 @@
         </div>
         <div class="flex items-center space-x-5">
           <div class="flex items-center space-x-1">
-            <p>0</p>
             <Icon name="emojione:1st-place-medal" />
+            <p>0</p>
           </div>
           <div class="flex items-center space-x-1">
-            <p>4</p>
             <Icon name="emojione:2nd-place-medal" />
+            <p>4</p>
           </div>
           <div class="flex items-center space-x-1">
-            <p>18</p>
             <Icon name="emojione:3rd-place-medal" />
+            <p>18</p>
           </div>
         </div>
       </div>

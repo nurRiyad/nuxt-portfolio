@@ -25,7 +25,7 @@
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="material-symbols:airline-stops-rounded" />
-          <p>Top 5% this year</p>
+          <p>Top 5% This Year</p>
         </div>
         <div class="flex items-center space-x-5">
           <div class="flex items-center space-x-1">

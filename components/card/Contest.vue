@@ -34,11 +34,11 @@ withDefaults(defineProps<Props>(), {
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="ph:medal" />
-          <p>Top Ratting {{ rating }}</p>
+          <p>Top Rating {{ rating }}</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="ph:check-circle" />
-          <p>Participate in {{ participate }}+ Contest</p>
+          <p>Participated in {{ participate }}+ Contest</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="fluent:autosum-24-filled" />

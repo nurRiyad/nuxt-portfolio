@@ -17,7 +17,7 @@
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="mdi:star-outline" />
-          <p>Total star earned 42</p>
+          <p>Total star Earned 42</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="ic:outline-commit" />

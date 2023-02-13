@@ -31,7 +31,7 @@ withDefaults(defineProps<Props>(), {
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="ph:calendar-check" />
-          <p>Session {{ session }}</p>
+          <p>Passing Year {{ session }}</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="material-symbols:school-outline" />

@@ -10,13 +10,13 @@ const schools = [
   {
 
     name: 'Higher Secondary School Certificate',
-    institute: 'Bogra Cantonment Public College',
+    institute: 'Bogura Cantonment Public College',
     session: '2015',
     gpa: 5.00,
   },
   {
     name: 'Secondary School Certificate',
-    institute: 'Bogra Police Line School',
+    institute: 'Bogura Police Line School',
     session: '2013',
     gpa: 5.00,
   },

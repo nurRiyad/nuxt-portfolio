@@ -16,19 +16,19 @@
           <span class="text-xl font-medium">GitHub/nurRiyad</span>
         </div>
         <div class="flex items-center space-x-2">
-          <Icon name="mdi:star-outline" />
+          <Icon name="heroicons:star" size="20" class="dark:text-cyan-500" />
           <p>Total star Earned 42</p>
         </div>
         <div class="flex items-center space-x-2">
-          <Icon name="ic:outline-commit" />
+          <Icon name="ic:outline-commit" size="20" class="dark:text-cyan-500" />
           <p>Total Contribution 1197</p>
         </div>
         <div class="flex items-center space-x-2">
-          <Icon name="ph:git-pull-request" />
+          <Icon name="ph:git-pull-request" size="20" class="dark:text-cyan-500" />
           <p>Total Pull Request 153</p>
         </div>
         <div class="flex items-center space-x-2">
-          <Icon name="codicon:issues" />
+          <Icon name="codicon:issues" size="20" class="dark:text-cyan-500" />
           <p>Total Issues 8</p>
         </div>
       </div>

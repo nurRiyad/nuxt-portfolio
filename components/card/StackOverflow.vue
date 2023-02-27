@@ -16,15 +16,15 @@
           <span class="text-xl font-medium">StackOverflow/16781395</span>
         </div>
         <div class="flex items-center space-x-2">
-          <Icon name="ph:check-circle" />
+          <Icon name="ph:check-circle" size="20" class="dark:text-cyan-500" />
           <p>Total Reputation 711</p>
         </div>
         <div class="flex items-center space-x-2">
-          <Icon name="fa-regular:handshake" />
+          <Icon name="fa-regular:handshake" size="19" class="dark:text-cyan-500" />
           <p>Total Impact 11k</p>
         </div>
         <div class="flex items-center space-x-2">
-          <Icon name="material-symbols:airline-stops-rounded" />
+          <Icon name="material-symbols:airline-stops-rounded" size="20" class="dark:text-cyan-500" />
           <p>Top 5% This Year</p>
         </div>
         <div class="flex items-center space-x-5">

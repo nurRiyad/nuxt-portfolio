@@ -33,15 +33,15 @@ withDefaults(defineProps<Props>(), {
           <span class="font-medium bg-gray-300 dark:bg-gray-900 rounded-md px-2">{{ handle }}</span>
         </div>
         <div class="flex items-center space-x-2">
-          <Icon name="ph:medal" />
+          <Icon name="ph:medal" size="20" class="dark:text-cyan-500" />
           <p>Top Rating {{ rating }}</p>
         </div>
         <div class="flex items-center space-x-2">
-          <Icon name="ph:check-circle" />
+          <Icon name="ph:check-circle" size="20" class="dark:text-cyan-500" />
           <p>Participated in {{ participate }}+ Contest</p>
         </div>
         <div class="flex items-center space-x-2">
-          <Icon name="fluent:autosum-24-filled" />
+          <Icon name="fluent:autosum-24-filled" size="20" class="dark:text-cyan-500" />
           <p>Total {{ solved }}+ Problem solved</p>
         </div>
       </div>

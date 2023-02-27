@@ -26,6 +26,8 @@ export default defineNuxtConfig({
 
   // https://color-mode.nuxtjs.org
   colorMode: {
+    preference: 'dark', // default value of $colorMode.preference
+    fallback: 'light', // fallback value if not system preference found
     classSuffix: '',
   },
 

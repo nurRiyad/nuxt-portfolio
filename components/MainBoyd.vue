@@ -1,6 +1,10 @@
 <script setup lang="ts">
 const colorMode = useColorMode()
-const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'dark') : (colorMode.preference = 'light'))
+
+const onDarkClick = () => colorMode.value = 'dark'
+const onLightClick = () => colorMode.value = 'light'
+
+const mode = computed(() => colorMode.value)
 </script>
 
 <template>
@@ -26,10 +30,10 @@ const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'da
           <a href="mailto:asadnurriyad@gmail.com" title="Gmail" class="hover:scale-110 transition-all ease-out">
             <Icon name="simple-icons:gmail" size="20" class="dark:text-cyan-500" />
           </a>
-          <a v-if="colorMode.value === 'dark'" name="dark-mode" title="Dark" class="hover:scale-110 transition-all ease-out hover:cursor-pointer" @click="onClick">
+          <a v-if="mode === 'dark'" name="dark-mode" title="Dark" class="hover:scale-110 transition-all ease-out hover:cursor-pointer" @click="onLightClick">
             <Icon name="bx:bxs-moon" size="20" class="dark:text-cyan-500" />
           </a>
-          <a v-else name="light-mode" title="Light" class="hover:scale-110 transition-all ease-out hover:cursor-pointer" @click="onClick">
+          <a v-if="mode === 'light'" name="light-mode" title="Light" class="hover:scale-110 transition-all ease-out hover:cursor-pointer" @click="onDarkClick">
 
             <Icon name="material-symbols:sunny-rounded" size="20" class="dark:text-cyan-500" />
           </a>

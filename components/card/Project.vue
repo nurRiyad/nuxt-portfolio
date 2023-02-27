@@ -31,11 +31,11 @@ withDefaults(defineProps<Props>(), {
       </div>
       <div class="flex items-center gap-x-5">
         <div class="flex gap-x-1 items-center">
-          <Icon name="mdi:star-outline" size="20" />
+          <Icon name="heroicons:star" size="20" class="dark:text-cyan-500" />
           <span>{{ star }}</span>
         </div>
         <div class="flex space-x-2 items-center">
-          <Icon name="ph-tag-bold" size="18" />
+          <Icon name="heroicons:tag" size="20" class="dark:text-cyan-500" />
           <div class="">{{ language }}</div>
         </div>
       </div>

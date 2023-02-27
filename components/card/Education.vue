@@ -26,15 +26,15 @@ withDefaults(defineProps<Props>(), {
           <span class="text-xl font-medium">{{ name }}</span>
         </div>
         <div class="flex items-center space-x-2">
-          <Icon name="icon-park-outline:school" />
+          <Icon name="icon-park-outline:school" size="20" class="dark:text-cyan-500" />
           <p>From {{ institute }}</p>
         </div>
         <div class="flex items-center space-x-2">
-          <Icon name="ph:calendar-check" />
+          <Icon name="ph:calendar-check" size="20" class="dark:text-cyan-500" />
           <p>Passing Year {{ session }}</p>
         </div>
         <div class="flex items-center space-x-2">
-          <Icon name="material-symbols:school-outline" />
+          <Icon name="material-symbols:school-outline" size="21" class="dark:text-cyan-500" />
           <p>GPA/CGPA {{ gpa }}</p>
         </div>
       </div>

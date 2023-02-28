@@ -5,7 +5,6 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxtjs/color-mode',
     '@nuxtjs/robots',
-    '@vite-pwa/nuxt',
   ],
   app: {
     head: {
@@ -31,49 +30,5 @@ export default defineNuxtConfig({
   },
 
   plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],
-
-  pwa: {
-    registerType: 'autoUpdate',
-    manifest: {
-      name: 'Al Asad Nur Riyad',
-      short_name: 'Al Asad Nur Riyad',
-      description: 'Al Asad Nur Riyad, Software Engineer @AppsCode in the Bytebuilder Team',
-      icons: [
-        {
-          src: 'favicon-16x16.png',
-          sizes: '16x16',
-          type: 'image/png',
-        },
-        {
-          src: 'favicon-32x32.png',
-          sizes: '32x32',
-          type: 'image/png',
-        },
-        {
-          src: 'android-chrome-192x192.png',
-          sizes: '192x192',
-          type: 'image/png',
-        },
-        {
-          src: 'android-chrome-512x512.png',
-          sizes: '512x512',
-          type: 'image/png',
-        },
-      ],
-    },
-    workbox: {
-      navigateFallback: '/',
-      globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
-    },
-    client: {
-      installPrompt: true,
-      // if enabling periodic sync for update use 1 hour or so (periodicSyncForUpdates: 3600)
-      periodicSyncForUpdates: 20,
-    },
-    devOptions: {
-      enabled: true,
-      type: 'module',
-    },
-  },
 
 })

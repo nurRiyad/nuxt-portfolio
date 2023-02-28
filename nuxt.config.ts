@@ -33,6 +33,7 @@ export default defineNuxtConfig({
   plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],
 
   pwa: {
+    registerType: 'autoUpdate',
     manifest: {
       name: 'Al Asad Nur Riyad',
       short_name: 'Al Asad Nur Riyad',
@@ -62,6 +63,12 @@ export default defineNuxtConfig({
     },
     workbox: {
       navigateFallback: '/',
+      globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
+    },
+    client: {
+      installPrompt: true,
+      // if enabling periodic sync for update use 1 hour or so (periodicSyncForUpdates: 3600)
+      periodicSyncForUpdates: 20,
     },
     devOptions: {
       enabled: true,

@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxtjs/color-mode',
     '@nuxtjs/robots',
+    '@vite-pwa/nuxt',
   ],
   app: {
     head: {
@@ -17,8 +18,6 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
         { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
         { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
-        { rel: 'manifest', href: '/site.webmanifest' },
-
       ],
 
     },
@@ -32,4 +31,42 @@ export default defineNuxtConfig({
   },
 
   plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],
+
+  pwa: {
+    manifest: {
+      name: 'Al Asad Nur Riyad',
+      short_name: 'Al Asad Nur Riyad',
+      description: 'Al Asad Nur Riyad, Software Engineer @AppsCode in the Bytebuilder Team',
+      icons: [
+        {
+          src: 'favicon-16x16.png',
+          sizes: '16x16',
+          type: 'image/png',
+        },
+        {
+          src: 'favicon-32x32.png',
+          sizes: '32x32',
+          type: 'image/png',
+        },
+        {
+          src: 'android-chrome-192x192.png',
+          sizes: '192x192',
+          type: 'image/png',
+        },
+        {
+          src: 'android-chrome-512x512.png',
+          sizes: '512x512',
+          type: 'image/png',
+        },
+      ],
+    },
+    workbox: {
+      navigateFallback: '/',
+    },
+    devOptions: {
+      enabled: true,
+      type: 'module',
+    },
+  },
+
 })

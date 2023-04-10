@@ -3,14 +3,14 @@ const Projects = [
   {
     name: 'hacker-news',
     description: 'Hacker News built with Vue3, Pinia, Vue Router, VueUse, Tailwind',
-    star: 22,
+    star: 23,
     language: 'Vue3',
     link: 'https://github.com/nurRiyad/hacker-news',
   },
   {
     name: 'nuxt/blog',
     description: 'Personal blog site built with Nuxt3, Nuxt-Content V2 & Tailwind. Deployed in vercel',
-    star: 8,
+    star: 14,
     language: 'Nuxt3',
     link: 'https://github.com/nurRiyad/blog',
   },
@@ -24,7 +24,7 @@ const Projects = [
   {
     name: 'vuefire-todos',
     description: 'Vue3, Vuefire, Firebase, Tailwindcss powered to-do app. Create, update, delete tasks with ease, and user authentication.',
-    star: 4,
+    star: 9,
     language: 'Vue, Firebase',
     link: 'https://github.com/nurRiyad/vuefire-todos',
   },

@@ -17,11 +17,11 @@
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="ph:check-circle" size="20" class="dark:text-cyan-500" />
-          <p>Total Reputation 711</p>
+          <p>Total Reputation 818</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="fa-regular:handshake" size="19" class="dark:text-cyan-500" />
-          <p>Total Impact 11k</p>
+          <p>Total Impact 15k+</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="material-symbols:airline-stops-rounded" size="20" class="dark:text-cyan-500" />
@@ -38,7 +38,7 @@
           </div>
           <div class="flex items-center space-x-1">
             <Icon name="emojione:3rd-place-medal" />
-            <p>18</p>
+            <p>20</p>
           </div>
         </div>
       </div>

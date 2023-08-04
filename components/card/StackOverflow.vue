@@ -17,15 +17,15 @@
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="ph:check-circle" size="20" class="dark:text-cyan-500" />
-          <p>Total Reputation 818</p>
+          <p>Total Reputation 1041</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="fa-regular:handshake" size="19" class="dark:text-cyan-500" />
-          <p>Total Impact 15k+</p>
+          <p>Total Impact ~24K+</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="material-symbols:airline-stops-rounded" size="20" class="dark:text-cyan-500" />
-          <p>Top 5% This Year</p>
+          <p>Top 4% This Year</p>
         </div>
         <div class="flex items-center space-x-5">
           <div class="flex items-center space-x-1">
@@ -34,11 +34,11 @@
           </div>
           <div class="flex items-center space-x-1">
             <Icon name="emojione:2nd-place-medal" />
-            <p>4</p>
+            <p>5</p>
           </div>
           <div class="flex items-center space-x-1">
             <Icon name="emojione:3rd-place-medal" />
-            <p>20</p>
+            <p>21</p>
           </div>
         </div>
       </div>

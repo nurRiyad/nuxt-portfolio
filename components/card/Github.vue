@@ -17,19 +17,19 @@
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="heroicons:star" size="20" class="dark:text-cyan-500" />
-          <p>Total star Earned 69</p>
+          <p>Total star Earned 105</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="ic:outline-commit" size="20" class="dark:text-cyan-500" />
-          <p>Total Contribution 1340</p>
+          <p>Total Contribution 1589</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="ph:git-pull-request" size="20" class="dark:text-cyan-500" />
-          <p>Total Pull Request 183</p>
+          <p>Total Pull Request 230</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="codicon:issues" size="20" class="dark:text-cyan-500" />
-          <p>Total Issues 12</p>
+          <p>Total Issues 22</p>
         </div>
       </div>
     </div>

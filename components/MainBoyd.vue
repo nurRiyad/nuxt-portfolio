@@ -16,26 +16,26 @@ const mode = computed(() => colorMode.value)
         </h1>
         <div class="flex space-x-4">
           <a href="https://twitter.com/qdnvubp" target="_blank" title="Twitter" class="hover:scale-110 transition-all ease-out">
-            <Icon name="fa-brands:twitter" size="20" class="dark:text-cyan-500" />
+            <Icon name="logos:twitter" size="20" />
           </a>
           <a href="https://github.com/nurRiyad" target="_blank" title="GitHub" class="hover:scale-110 transition-all ease-out">
-            <Icon name="fa-brands:github" size="20" class="dark:text-cyan-500" />
+            <Icon name="devicon:github" size="20" />
           </a>
           <a href="https://www.linkedin.com/in/nur-riyad/" target="_blank" title="LinkedIn" class="hover:scale-110 transition-all ease-out">
-            <Icon name="fa-brands:linkedin" size="20" class="dark:text-cyan-500" />
+            <Icon name="logos:linkedin-icon" size="20" />
           </a>
           <a href="https://stackoverflow.com/users/16781395/nur-riyad" target="_blank" title="Stackoverflow" class="hover:scale-110 transition-all ease-out">
-            <Icon name="academicons:stackoverflow-square" size="20" class="dark:text-cyan-500" />
+            <Icon name="logos:stackoverflow-icon" size="20" />
           </a>
           <a href="mailto:asadnurriyad@gmail.com" title="Gmail" class="hover:scale-110 transition-all ease-out">
-            <Icon name="simple-icons:gmail" size="20" class="dark:text-cyan-500" />
+            <Icon name="logos:google-gmail" size="20" />
           </a>
           <a v-if="mode === 'dark'" name="dark-mode" title="Dark" class="hover:scale-110 transition-all ease-out hover:cursor-pointer" @click="onLightClick">
-            <Icon name="bx:bxs-moon" size="20" class="dark:text-cyan-500" />
+            <Icon name="icon-park:moon" size="20" />
           </a>
           <a v-if="mode === 'light'" name="light-mode" title="Light" class="hover:scale-110 transition-all ease-out hover:cursor-pointer" @click="onDarkClick">
 
-            <Icon name="material-symbols:sunny-rounded" size="20" class="dark:text-cyan-500" />
+            <Icon name="noto:sun" size="20" />
           </a>
         </div>
       </div>

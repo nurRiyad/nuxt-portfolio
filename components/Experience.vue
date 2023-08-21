@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <h1 class="text-center text-3xl font-bold mb-10">
+    <h1 class="text-3xl font-bold mb-10">
       Work Experience
     </h1>
 
@@ -12,7 +12,9 @@
       <div class="timeline-block timeline-block-right">
         <div class="marker" />
         <div class="timeline-content">
-          <h3>Senior Software Engineer @Appscode</h3>
+          <h3 class="mt-0">
+            Senior Software Engineer @Appscode
+          </h3>
           <span>Some work experience</span>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
         </div>
@@ -49,7 +51,7 @@
 
 body {
    margin: 0;
-   padding: 30px 0;
+   padding: 0;
 }
 
 h1 span {
@@ -58,8 +60,6 @@ h1 span {
 
 .container {
    width: 90%;
-   padding: 0 0;
-   margin: 0px auto;
    position: relative;
    overflow: hidden;
 }
@@ -132,7 +132,6 @@ h1 span {
    word-spacing: 1px;
 }
 
-@media screen and (max-width: 768px) {
    .container:before {
       left: 8px;
       width: 2px;
@@ -149,5 +148,4 @@ h1 span {
       float: none;
       direction: ltr;
    }
-}
 </style>

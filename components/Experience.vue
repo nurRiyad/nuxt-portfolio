@@ -49,17 +49,8 @@
    outline: none;
 }
 
-body {
-   margin: 0;
-   padding: 0;
-}
-
-h1 span {
-   font-weight: 600;
-}
-
 .container {
-   width: 90%;
+   width: 100%;
    position: relative;
    overflow: hidden;
 }
@@ -69,8 +60,8 @@ h1 span {
    position: absolute;
    top: 0;
    left: 50%;
-   margin-left: -2px;
-   width: 4px;
+   margin-left: -1px;
+   width: 2px;
    height: 100%;
    background: #CCD1D9;
    z-index: 1
@@ -106,6 +97,7 @@ h1 span {
    border-radius: 50%;
    border: 2px solid #F5F7FA;
    background: #4FC1E9;
+   margin-top: 0px;
    z-index: 9999
 }
 
@@ -115,23 +107,7 @@ h1 span {
 
 }
 
-.timeline-content h3 {
-   margin-top: 5px;
-   margin-bottom: 5px;
-   font-size: 25px;
-   font-weight: 500
-}
-
-.timeline-content span {
-   font-size: 15px;
-}
-
-.timeline-content p {
-   font-size: 14px;
-   line-height: 1.5em;
-   word-spacing: 1px;
-}
-
+@media screen and (max-width: 768px) {
    .container:before {
       left: 8px;
       width: 2px;
@@ -148,4 +124,5 @@ h1 span {
       float: none;
       direction: ltr;
    }
+}
 </style>

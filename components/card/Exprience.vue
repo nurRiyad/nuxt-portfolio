@@ -1,17 +1,28 @@
 <script setup lang="ts">
-// https://codepen.io/hassan-kamal/pen/NNvYEQ
+interface Props {
+  left: boolean
+}
+
+const props = withDefaults(defineProps<Props>(), { left: false })
+
+const computeClass = computed(() => {
+  return props.left ? 'timeline-block-left' : 'timeline-block-right'
+})
 </script>
 
 <template>
-  <div>
-    <h1 class="text-3xl font-bold mb-10">
-      Work Experience
-    </h1>
-
-    <div class="container">
-      <CardExprience :left="false" />
-      <CardExprience :left="true " />
-      <CardExprience :left="false" />
+  <div class="timeline-block" :class="computeClass">
+    <div class="marker" />
+    <div class="timeline-content space-y-2">
+      <h3 class="mt-0 text-lg">
+        Senior Software Engineer @Appscode
+      </h3>
+      <div>Aug 2023 - Present</div>
+      <ul>
+        <li>- Lorem ipsum dolor sit amet.</li>
+        <li>- Lorem ipsum dolor sit.</li>
+        <li>- Lorem ipsum dolor sit amet consectetur.</li>
+      </ul>
     </div>
   </div>
 </template>

@@ -9,20 +9,22 @@ const mode = computed(() => colorMode.value)
 
 <template>
   <div>
-    <div class="grid grid-cols-3">
+    <div class="grid grid-cols-3 gap-5">
       <div class="col-span-2">
-        <h1 class="text-3xl sm:text-4xl font-bold items-start  pt-2 pb-4">
-          Al Asad Nur Riyad
-        </h1>
-        <div class="flex space-x-4">
+        <div class="flex justify-between">
+          <h1 class="text-2xl sm:text-4xl font-bold items-start  pt-2 pb-4">
+            Al Asad Nur Riyad
+          </h1>
+        </div>
+        <div class="flex space-x-4 items-center">
           <a href="https://twitter.com/qdnvubp" target="_blank" title="Twitter" class="hover:scale-110 transition-all ease-out">
             <Icon name="logos:twitter" size="20" />
           </a>
           <a href="https://github.com/nurRiyad" target="_blank" title="GitHub" class="hover:scale-110 transition-all ease-out">
-            <Icon name="devicon:github" size="20" />
+            <Icon name="logos:github-octocat" size="20" />
           </a>
           <a href="https://www.linkedin.com/in/nur-riyad/" target="_blank" title="LinkedIn" class="hover:scale-110 transition-all ease-out">
-            <Icon name="logos:linkedin-icon" size="20" />
+            <Icon name="devicon:linkedin" size="20" />
           </a>
           <a href="https://stackoverflow.com/users/16781395/nur-riyad" target="_blank" title="Stackoverflow" class="hover:scale-110 transition-all ease-out">
             <Icon name="logos:stackoverflow-icon" size="20" />
@@ -38,15 +40,19 @@ const mode = computed(() => colorMode.value)
             <Icon name="noto:sun" size="20" />
           </a>
         </div>
+
+        <p class="pt-4 text-sm sm:text-lg hidden sm:block">
+          Hello, fellow human! I'm a software wizard who spends most of his day crafting code spells at <span class="font-medium">@AppsCode</span>  in the <span class="font-medium">Bytebuilders</span> team.
+        </p>
       </div>
-      <div class="justify-self-start flex justify-center grid-col">
-        <div class="h-24 sm:h-28 w-24 sm:w-28 rounded-full overflow-hidden">
+      <div class="justify-center mt-3 items-start flex">
+        <div class="h-24 sm:h-40 w-24 sm:w-40  rounded-md overflow-hidden">
           <img src="/rsz_1riyad.jpg" alt="Profile Picture">
         </div>
       </div>
     </div>
-    <p class="pt-4 text-sm sm:text-base">
-      Hello, fellow human! I'm a software wizard who spends most of his day crafting code spells at <span class="font-medium">@AppsCode</span>  in the <span class="font-medium">Bytebuilders</span> team. When I'm not crafting code, you can find me summoning solutions to problems on online judges. Just don't ask me to cast any love spells, my magic only works on machines!
+    <p class="pt-4 text-sm sm:text-lg block sm:hidden">
+      Hello, fellow human! I'm a software wizard who spends most of his day crafting code spells at <span class="font-medium">@AppsCode</span>  in the <span class="font-medium">Bytebuilders</span> team.
     </p>
   </div>
 </template>

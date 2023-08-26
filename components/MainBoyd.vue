@@ -46,7 +46,7 @@ const mode = computed(() => colorMode.value)
         </p>
       </div>
       <div class="justify-center mt-3 items-start flex">
-        <div class="h-24 sm:h-40 w-24 sm:w-40  rounded-md overflow-hidden">
+        <div class="h-20 sm:h-40 w-22 sm:w-40  rounded-md overflow-hidden">
           <img src="/rsz_1riyad.jpg" alt="Profile Picture">
         </div>
       </div>

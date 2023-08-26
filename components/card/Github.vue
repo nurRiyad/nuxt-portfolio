@@ -14,7 +14,7 @@
       <div class="flex flex-col gap-y-2">
         <div class="flex items-center space-x-2">
           <Icon name="logos:github-octocat" size="20" />
-          <span class="text-xl font-medium">GitHub/nurRiyad</span>
+          <span class="text-xl font-medium">GitHub</span>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="heroicons:star" size="20" class="dark:text-cyan-500" />

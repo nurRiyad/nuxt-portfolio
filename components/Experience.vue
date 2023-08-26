@@ -84,6 +84,7 @@ const data = [
    .container:before {
       left: 8px;
       width: 2px;
+      height: 93%;
    }
 
 }

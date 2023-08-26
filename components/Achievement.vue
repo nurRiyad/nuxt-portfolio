@@ -1,32 +1,20 @@
 <script setup lang="ts">
 const Projects = [
   {
-    name: 'nuxt/blog',
-    description: 'Personal blog site built with Nuxt3, Nuxt-Content V2 & Tailwind. Deployed in vercel',
-    star: 43,
-    language: 'Nuxt3',
-    link: 'https://github.com/nurRiyad/blog',
+    name: '4th, RMSTU Bangabandhu Online Divisional Programming Contest - 2021',
+    link: 'https://toph.co/c/rmstu-bangabandhu-online-divisional-2021/standings',
   },
   {
-    name: 'hacker-news',
-    description: 'Hacker News built with Vue3, Pinia, Vue Router, VueUse, Tailwind',
-    star: 27,
-    language: 'Vue3',
-    link: 'https://github.com/nurRiyad/hacker-news',
+    name: '4th, NSTU Inter University Programming Contest,2020',
+    link: 'https://toph.co/c/nstu-ice-fest-regional-2020/standings',
   },
   {
-    name: 'vuefire-todos',
-    description: 'Vue3, Vuefire, Firebase, Tailwindcss powered to-do app. Create, update, delete tasks with ease, and user authentication.',
-    star: 11,
-    language: 'Vue, Firebase',
-    link: 'https://github.com/nurRiyad/vuefire-todos',
+    name: '6th, IIUC Inter University Programming Contest,2020',
+    link: 'https://algo.codemarshal.org/contests/iiuc-2020/standings',
   },
   {
-    name: 'task-manager-api',
-    description: 'A simple api server for creating user account and user-specific tasks with complete & incomplete status',
-    star: 1,
-    language: 'Express',
-    link: 'https://github.com/nurRiyad/task-manager-api',
+    name: '7th, BAIUST Inter University Programming Contest,2020',
+    link: 'https://drive.google.com/file/d/1n274rybru1TzYLpIIcZ8dbPl0jHh1dFc/view',
   },
 ]
 </script>
@@ -38,7 +26,7 @@ const Projects = [
     </h1>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
       <template v-for="project in Projects" :key="project.name">
-        <CardAchievement :name="project.name" :description="project.description" :star="project.star" :link="project.link" :language="project.language" />
+        <CardAchievement :name="project.name" :link="project.link" />
       </template>
     </div>
   </div>

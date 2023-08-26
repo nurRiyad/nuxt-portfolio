@@ -1,17 +1,11 @@
 <script setup lang="ts">
 interface Props {
   name: string
-  description: string
-  star: number
-  language: string
   link: string
 }
 
 withDefaults(defineProps<Props>(), {
   name: 'no name',
-  description: 'no description ',
-  star: 0,
-  language: 'no language',
   link: '-',
 })
 </script>
@@ -26,20 +20,9 @@ withDefaults(defineProps<Props>(), {
       class="flex flex-col justify-between gap-y-2  hover:scale-[1.01] ease-out transition-transform px-5 py-3"
     >
       <div class="flex flex-col gap-y-2">
-        <div class="flex items-center space-x-2">
-          <Icon name="logos:github-octocat" size="20" />
-          <p class="text-xl font-medium">{{ name }}</p>
-        </div>
-        <p>{{ description }}</p>
-      </div>
-      <div class="flex items-center gap-x-5">
-        <div class="flex space-x-2 items-center">
-          <Icon name="heroicons:star" size="20" class="dark:text-cyan-500" />
-          <span>{{ star }}</span>
-        </div>
-        <div class="flex space-x-2 items-center">
-          <Icon name="heroicons:tag" size="20" class="dark:text-cyan-500" />
-          <div class="">{{ language }}</div>
+        <div class="flex flex-col items-center space-y-4 mt-2">
+          <Icon name="solar:cup-star-broken" size="30" class="dark:text-cyan-500" />
+          <p class="text-base sm:text-lg text-center font-medium">{{ name }}</p>
         </div>
       </div>
     </div>

@@ -1,5 +1,45 @@
 <script setup lang="ts">
 // https://codepen.io/hassan-kamal/pen/NNvYEQ
+
+const data = [
+  {
+    title: 'Senior Software Engineer @AppsCode',
+    time: 'Aug 2023 - Present',
+    left: false,
+    list: [
+      'Building Project from scratch',
+      'Nuxt2 to Nuxt3 migration',
+      'Do POC on different topic',
+      'Review Code',
+    ],
+
+  },
+  {
+    title: 'Software Engineer @AppsCode',
+    time: 'Aug 2021 - Jul 2023',
+    left: true,
+    list: [
+      'Build SPA dashboard with Vue',
+      'Build SSR Site with Nuxt',
+      'Write e2e test with cypress',
+      'Write vanilla js for implementing feature like search, filter',
+      'Vue2 to vue3 migrating',
+    ],
+
+  },
+  {
+    title: 'Teacher Assistant @IIUC',
+    time: 'Jul 2020 - Aug 2021',
+    left: false,
+    list: [
+      'Take class test evaluate there paper',
+      'Evaluate students assignment',
+      'Help Teacher to take Final Viva',
+
+    ],
+
+  },
+]
 </script>
 
 <template>
@@ -9,9 +49,7 @@
     </h1>
 
     <div class="container">
-      <CardExprience :left="false" />
-      <CardExprience :left="true " />
-      <CardExprience :left="false" />
+      <CardExprience v-for="d in data" :key="d.title" :left="d.left" :title="d.title" :time="d.time" :list="d.list" />
     </div>
   </div>
 </template>
@@ -33,7 +71,7 @@
 .container:before {
    content: '';
    position: absolute;
-   top: 0;
+   top: 7px;
    left: 50%;
    margin-left: -1px;
    width: 2px;
@@ -42,62 +80,11 @@
    z-index: 1
 }
 
-.timeline-block {
-   width: -webkit-calc(50% + 8px);
-   width: -moz-calc(50% + 8px);
-   width: calc(50% + 8px);
-   display: -webkit-box;
-   display: -webkit-flex;
-   display: -moz-box;
-   display: flex;
-   -webkit-box-pack: justify;
-   -webkit-justify-content: space-between;
-   -moz-box-pack: justify;
-   justify-content: space-between;
-   clear: both;
-}
-
-.timeline-block-right {
-   float: right;
-}
-
-.timeline-block-left {
-   float: left;
-   direction: rtl
-}
-
-.marker {
-   width: 16px;
-   height: 16px;
-   border-radius: 50%;
-   border: 2px solid #F5F7FA;
-   background: #4FC1E9;
-   margin-top: 0px;
-   z-index: 9999
-}
-
-.timeline-content {
-   width: 95%;
-   padding: 0 15px;
-
-}
-
 @media screen and (max-width: 768px) {
    .container:before {
       left: 8px;
       width: 2px;
    }
-   .timeline-block {
-      width: 100%;
-      margin-bottom: 30px;
-   }
-   .timeline-block-right {
-      float: none;
-   }
 
-   .timeline-block-left {
-      float: none;
-      direction: ltr;
-   }
 }
 </style>

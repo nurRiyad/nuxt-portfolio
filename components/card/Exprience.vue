@@ -1,9 +1,17 @@
 <script setup lang="ts">
 interface Props {
   left: boolean
+  title: string
+  time: string
+  list: Array<string>
 }
 
-const props = withDefaults(defineProps<Props>(), { left: false })
+const props = withDefaults(defineProps<Props>(), {
+  left: false,
+  title: 'no title',
+  time: 'no time',
+  list: () => ([]),
+})
 
 const computeClass = computed(() => {
   return props.left ? 'timeline-block-left' : 'timeline-block-right'
@@ -14,14 +22,14 @@ const computeClass = computed(() => {
   <div class="timeline-block" :class="computeClass">
     <div class="marker" />
     <div class="timeline-content space-y-2">
-      <h3 class="mt-0 text-lg">
-        Senior Software Engineer @Appscode
+      <h3 class="text-xl">
+        {{ title }}
       </h3>
-      <div>Aug 2023 - Present</div>
-      <ul>
-        <li>- Lorem ipsum dolor sit amet.</li>
-        <li>- Lorem ipsum dolor sit.</li>
-        <li>- Lorem ipsum dolor sit amet consectetur.</li>
+      <p>{{ time }}</p>
+      <ul class="">
+        <li v-for="itm in list" :key="itm">
+          {{ itm }}
+        </li>
       </ul>
     </div>
   </div>
@@ -33,24 +41,6 @@ const computeClass = computed(() => {
    -moz-box-sizing: border-box;
    box-sizing: border-box;
    outline: none;
-}
-
-.container {
-   width: 100%;
-   position: relative;
-   overflow: hidden;
-}
-
-.container:before {
-   content: '';
-   position: absolute;
-   top: 0;
-   left: 50%;
-   margin-left: -1px;
-   width: 2px;
-   height: 100%;
-   background: #CCD1D9;
-   z-index: 1
 }
 
 .timeline-block {
@@ -83,7 +73,7 @@ const computeClass = computed(() => {
    border-radius: 50%;
    border: 2px solid #F5F7FA;
    background: #4FC1E9;
-   margin-top: 0px;
+   margin-top: 7px;
    z-index: 9999
 }
 

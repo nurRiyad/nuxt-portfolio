@@ -3,22 +3,25 @@ const schools = [
   {
 
     name: 'BSc in Computer Science & Engineering',
-    institute: 'IIUC',
+    institute: 'International Islamic University Chittagong',
     session: '2021',
-    gpa: 3.44,
+    gpa: 'CGPA 3.444 / 4.00',
+    img: 'iiuc.png',
   },
   {
 
     name: 'Higher Secondary School Certificate',
     institute: 'Bogura Cantonment Public College',
     session: '2015',
-    gpa: 5.00,
+    gpa: 'GPA 5.00 / 5.00',
+    img: 'bcpsc.png',
   },
   {
     name: 'Secondary School Certificate',
     institute: 'Bogura Police Line School',
     session: '2013',
-    gpa: 5.00,
+    gpa: 'GPA 5.00 / 5.00',
+    img: 'plsc.png',
   },
 
 ]
@@ -29,9 +32,15 @@ const schools = [
     <h1 class="text-2xl sm:text-3xl font-bold pb-5">
       Educations
     </h1>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+    <div class="space-y-4">
       <template v-for="school in schools" :key="school.name">
-        <CardEducation :name="school.name" :gpa="school.gpa" :session="school.session" :institute="school.institute" />
+        <CardEducation
+          :name="school.name"
+          :gpa="school.gpa"
+          :session="school.session"
+          :institute="school.institute"
+          :img="school.img"
+        />
       </template>
     </div>
   </div>

@@ -2,15 +2,17 @@
 interface Props {
   name: string
   session: string
-  gpa: number
+  gpa: string
   institute: string
+  img: string
 }
 
 withDefaults(defineProps<Props>(), {
   name: 'no name',
   session: 'no session',
   institute: 'no institute',
-  gpa: 0,
+  gpa: '-',
+  img: '-',
 })
 </script>
 
@@ -19,10 +21,11 @@ withDefaults(defineProps<Props>(), {
     class=" overflow-hidden border dark:border-gray-700 rounded-xl shadow"
   >
     <div
-      class="flex flex-col justify-between gap-y-2  hover:scale-[1.03] ease-out transition-transform px-5 py-3"
+      class="flex flex-col justify-between gap-y-2  hover:scale-[1.001] ease-out transition-transform px-5 py-3"
     >
       <div class="flex flex-col gap-y-2">
-        <div class="flex items-baseline justify-between">
+        <div class="flex items-center space-x-2">
+          <img :src="`/images/${img}`" alt="iiuc" class="w-6 h-6">
           <span class="text-xl font-medium">{{ name }}</span>
         </div>
         <div class="flex items-center space-x-2">
@@ -35,7 +38,7 @@ withDefaults(defineProps<Props>(), {
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="material-symbols:school-outline" size="21" class="dark:text-cyan-500" />
-          <p>GPA/CGPA {{ gpa }}</p>
+          <p> {{ gpa }}</p>
         </div>
       </div>
     </div>

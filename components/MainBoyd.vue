@@ -42,7 +42,7 @@ const mode = computed(() => colorMode.value)
         </div>
 
         <p class="pt-4 text-sm sm:text-base hidden sm:block">
-          Hello, fellow human! I'm a software wizard who spends most of his day crafting code spells at <span class="font-medium">@AppsCode</span>  in the <span class="font-medium">Bytebuilders</span> team.
+          Hello, I am passionate software software engineer and problem solver. I am currently working at @AppsCode as Senior Software Engineer in @Bytebuilders team
         </p>
       </div>
       <div class="justify-center mt-3 items-start flex">

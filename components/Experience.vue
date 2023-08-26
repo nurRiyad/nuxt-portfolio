@@ -7,7 +7,7 @@ const data = [
     time: 'Aug 2023 - Present',
     left: false,
     list: [
-      'Building Project from scratch',
+      'Develop Project from scratch',
       'Nuxt2 to Nuxt3 migration',
       'Do POC on different topic',
       'Review Code',
@@ -19,10 +19,9 @@ const data = [
     time: 'Aug 2021 - Jul 2023',
     left: true,
     list: [
-      'Build SPA dashboard with Vue',
-      'Build SSR Site with Nuxt',
+      'Develop SPA dashboard with Vue',
+      'Develop SSR Site with Nuxt',
       'Write e2e test with cypress',
-      'Write vanilla js for implementing feature like search, filter',
       'Vue2 to vue3 migrating',
     ],
 

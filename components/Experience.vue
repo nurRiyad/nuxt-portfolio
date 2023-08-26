@@ -9,7 +9,6 @@ const data = [
     list: [
       'Develop Project from scratch',
       'Nuxt2 to Nuxt3 migration',
-      'Do POC on different topic',
       'Review Code',
     ],
 
@@ -31,10 +30,9 @@ const data = [
     time: 'Jul 2020 - Aug 2021',
     left: false,
     list: [
-      'Take class test evaluate there paper',
+      'Take class test evaluate papers',
       'Evaluate students assignment',
       'Help Teacher to take Final Viva',
-
     ],
 
   },

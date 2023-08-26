@@ -44,7 +44,7 @@ const data = [
 
 <template>
   <div>
-    <h1 class="text-3xl font-bold mb-10">
+    <h1 class="text-2xl sm:text-3xl font-bold items-start  pt-2 pb-4">
       Work Experience
     </h1>
 

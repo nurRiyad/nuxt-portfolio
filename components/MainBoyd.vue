@@ -12,11 +12,11 @@ const mode = computed(() => colorMode.value)
     <div class="grid grid-cols-3 gap-5">
       <div class="col-span-2">
         <div class="flex justify-between">
-          <h1 class="text-2xl sm:text-4xl font-bold items-start  pt-2 pb-4">
+          <h1 class="text-2xl sm:text-3xl font-bold items-start  pt-2 pb-4">
             Al Asad Nur Riyad
           </h1>
         </div>
-        <div class="flex space-x-4 items-center">
+        <div class="flex space-x-3 items-center">
           <a href="https://twitter.com/qdnvubp" target="_blank" title="Twitter" class="hover:scale-110 transition-all ease-out">
             <Icon name="logos:twitter" size="20" />
           </a>

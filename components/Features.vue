@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <h1 class="text-2xl sm:text-3xl font-bold pb-5">
+    <h1 class="text-2xl sm:text-3xl font-bold items-start  pt-2 pb-4">
       Tech Stack
     </h1>
     <div class="overflow-hidden border dark:border-gray-700 shadow rounded-xl">

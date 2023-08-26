@@ -2,10 +2,11 @@
   <div class="space-y-14 ">
     <MainBoyd />
     <Experience />
-    <Features />
+    <TechStack />
     <Projects />
     <OpenSource />
     <Contest />
     <Educations />
+    <Achievement />
   </div>
 </template>

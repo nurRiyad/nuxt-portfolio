@@ -41,7 +41,7 @@ const mode = computed(() => colorMode.value)
           </a>
         </div>
 
-        <p class="pt-4 text-sm sm:text-lg hidden sm:block">
+        <p class="pt-4 text-sm sm:text-base hidden sm:block">
           Hello, fellow human! I'm a software wizard who spends most of his day crafting code spells at <span class="font-medium">@AppsCode</span>  in the <span class="font-medium">Bytebuilders</span> team.
         </p>
       </div>

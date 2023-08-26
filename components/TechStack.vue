@@ -12,7 +12,7 @@
         class="flex flex-col justify-between space-y-3   ease-out transition-transform px-5 py-3"
       >
         <div>
-          <p class="text-lg">
+          <p class="text-sm sm:text-base">
             Javascript, Typescript, C++ , NodeJS, Express, Vue, Nuxt, Vite, Pinia, Subapase, Firebase, MongoDB, Linux, MacOS, Notion, Git, Docker
           </p>
         </div>

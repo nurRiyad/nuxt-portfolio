@@ -47,7 +47,7 @@ const mode = computed(() => colorMode.value)
       </div>
       <div class="justify-center mt-3 items-start flex">
         <div class="rounded-md overflow-hidden">
-          <NuxtImg src="/rsz_1riyad.jpg" alt="Profile Picture" sizes="80px sm:160px" />
+          <NuxtImg src="/rsz_1riyad.jpg" alt="Profile Picture" sizes="sm:80px md:160px" />
         </div>
       </div>
     </div>

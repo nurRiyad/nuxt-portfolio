@@ -22,9 +22,9 @@ const computeClass = computed(() => {
   <div class="timeline-block" :class="computeClass">
     <div class="marker" />
     <div class="timeline-content space-y-1">
-      <h3 class="text-base sm:text-lg font-semibold">
+      <h2 class="text-base sm:text-lg font-semibold">
         {{ title }}
-      </h3>
+      </h2>
       <p>
         {{ time }}
       </p>

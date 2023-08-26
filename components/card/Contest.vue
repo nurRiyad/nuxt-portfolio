@@ -25,12 +25,17 @@ withDefaults(defineProps<Props>(), {
     class="overflow-hidden border dark:border-gray-700 rounded-xl shadow"
   >
     <div
-      class="flex flex-col justify-between gap-y-2  hover:scale-[1.03] ease-out transition-transform px-5 py-3"
+      class="flex flex-col justify-between gap-y-2  hover:scale-[1.01] ease-out transition-transform px-5 py-3"
     >
       <div class="flex flex-col gap-y-2">
-        <div class="flex items-baseline justify-between">
+        <div class="flex items-center space-x-2">
+          <IconsCodeforces v-if="name === 'Codeforces'" class="w-7 h-7" />
+          <IconsCodechef v-else-if="name === 'Codechef'" class="w-7 h-7" />
+          <IconsLeetcode v-else-if="name === 'LeetCode'" class="w-7 h-7" />
+          <IconsAtcoder v-else-if="name === 'AtCoder'" class="w-8 h-8" />
+
           <span class="text-xl font-medium">{{ name }}</span>
-          <span class="font-medium bg-gray-300 dark:bg-gray-900 rounded-md px-2">{{ handle }}</span>
+
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="ph:medal" size="20" class="dark:text-cyan-500" />

@@ -23,14 +23,17 @@ withDefaults(defineProps<Props>(), {
     class="overflow-hidden border dark:border-gray-700 shadow rounded-xl"
   >
     <div
-      class="flex flex-col justify-between gap-y-2  hover:scale-[1.03] ease-out transition-transform px-5 py-3"
+      class="flex flex-col justify-between gap-y-2  hover:scale-[1.01] ease-out transition-transform px-5 py-3"
     >
       <div class="flex flex-col gap-y-2">
-        <span class="text-xl font-medium">{{ name }}</span>
+        <div class="flex items-center space-x-2">
+          <Icon name="logos:github-octocat" size="20" />
+          <p class="text-xl font-medium">{{ name }}</p>
+        </div>
         <p>{{ description }}</p>
       </div>
       <div class="flex items-center gap-x-5">
-        <div class="flex gap-x-1 items-center">
+        <div class="flex space-x-2 items-center">
           <Icon name="heroicons:star" size="20" class="dark:text-cyan-500" />
           <span>{{ star }}</span>
         </div>

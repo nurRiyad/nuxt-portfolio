@@ -25,7 +25,7 @@ withDefaults(defineProps<Props>(), {
     >
       <div class="flex flex-col gap-y-2">
         <div class="flex items-center space-x-2">
-          <img :src="`/images/${img}`" alt="iiuc" class="w-6 h-6">
+          <NuxtImg :src="`/images/${img}`" alt="iiuc" class="w-6 h-6" />
           <span class="text-base sm:text-xl font-medium">{{ name }}</span>
         </div>
         <div class="flex items-center space-x-2">

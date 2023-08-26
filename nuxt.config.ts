@@ -3,9 +3,15 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-icon',
+    '@nuxt/image',
     '@nuxtjs/color-mode',
     '@nuxtjs/robots',
+    'nuxt-simple-sitemap',
   ],
+
+  site: {
+    url: 'https://www.nurriyad.xyz/',
+  },
   app: {
     head: {
       charset: 'utf-16',

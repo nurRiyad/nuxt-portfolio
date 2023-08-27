@@ -6,11 +6,7 @@ const data = [
     title: 'Senior Software Engineer @AppsCode',
     time: 'Aug 2023 - Present',
     left: false,
-    list: [
-      'Develop Project from scratch',
-      'Nuxt2 to Nuxt3 migration',
-      'Review Code',
-    ],
+    list: [],
 
   },
   {
@@ -18,21 +14,20 @@ const data = [
     time: 'Aug 2021 - Jul 2023',
     left: true,
     list: [
-      'Develop SPA dashboard with Vue',
-      'Develop SSR Site with Nuxt',
-      'Write e2e test with cypress',
-      'Vue2 to vue3 migrating',
+      'Develop k8s cluster dashboard Console UI & k8s database dashboard KubeDB UI using Vue3, Typescript, Vuex, Vue Router',
+      'Develop Account UI(SSR) with nuxt2, vuex & later successfully migrated to nuxt3',
+      'Develop learning platform(SSG) using Nuxt3, Typescript, Pinia, Firebase, Vue Router',
+      'Maintain & Update AppsCode Design System using Vue2 & later migrated to vue3',
     ],
 
   },
   {
     title: 'Teacher Assistant @IIUC',
-    time: 'Jul 2020 - Aug 2021',
+    time: 'Aug 2020 - Jul 2021',
     left: false,
     list: [
-      'Take class test evaluate papers',
-      'Evaluate students assignment',
-      'Help Teacher to take Final Viva',
+      'Work as a teacher assistant for courses like Computer Programming I, Computer Programming II & Numerical Analysis.',
+      'Take class test, assignment & evaluate papers. Help Teacher to take Final Viva',
     ],
 
   },

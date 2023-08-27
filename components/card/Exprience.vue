@@ -21,14 +21,14 @@ const computeClass = computed(() => {
 <template>
   <div class="timeline-block" :class="computeClass">
     <div class="marker" />
-    <div class="timeline-content space-y-1">
+    <div class="timeline-content">
       <h2 class="text-base sm:text-lg font-semibold">
         {{ title }}
       </h2>
       <p>
         {{ time }}
       </p>
-      <ul class="space-y-1 pt-3">
+      <ul v-if="list.length > 0" class="space-y-2 text-sm pt-3">
         <li v-for="itm in list" :key="itm">
           {{ itm }}
         </li>

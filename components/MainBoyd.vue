@@ -5,6 +5,8 @@ const onDarkClick = () => colorMode.value = 'dark'
 const onLightClick = () => colorMode.value = 'light'
 
 const mode = computed(() => colorMode.value)
+
+const aboutMe = 'Hello, I am passionate software software engineer and problem solver. I am currently working at @AppsCode as Senior Software Engineer in @Bytebuilders team'
 </script>
 
 <template>
@@ -42,7 +44,7 @@ const mode = computed(() => colorMode.value)
         </div>
 
         <p class="pt-4 text-sm sm:text-base hidden sm:block">
-          Hello, I am passionate software software engineer and problem solver. I am currently working at @AppsCode as Senior Software Engineer in @Bytebuilders team
+          {{ aboutMe }}
         </p>
       </div>
       <div class="justify-center mt-3 items-start flex">
@@ -52,7 +54,7 @@ const mode = computed(() => colorMode.value)
       </div>
     </div>
     <p class="pt-4 text-sm sm:text-lg block sm:hidden">
-      Hello, I am passionate software software engineer and problem solver. I am currently working at @AppsCode as Senior Software Engineer in @Bytebuilders team
+      {{ aboutMe }}
     </p>
   </div>
 </template>

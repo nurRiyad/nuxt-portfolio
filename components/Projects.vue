@@ -1,34 +1,19 @@
 <script setup lang="ts">
-const Projects = [
-  {
-    name: 'nuxt/blog',
-    description: 'Personal blog site built with Nuxt3, Nuxt-Content V2 & Tailwind. Deployed in vercel',
-    star: 43,
-    language: 'Nuxt3',
-    link: 'https://github.com/nurRiyad/blog',
-  },
-  {
-    name: 'hacker-news',
-    description: 'Hacker News built with Vue3, Pinia, Vue Router, VueUse, Tailwind',
-    star: 27,
-    language: 'Vue3',
-    link: 'https://github.com/nurRiyad/hacker-news',
-  },
-  {
-    name: 'vuefire-todos',
-    description: 'Vue3, Vuefire, Firebase, Tailwindcss powered to-do app. Create, update, delete tasks with ease, and user authentication.',
-    star: 11,
-    language: 'Vue, Firebase',
-    link: 'https://github.com/nurRiyad/vuefire-todos',
-  },
-  {
-    name: 'task-manager-api',
-    description: 'A simple api server for creating user account and user-specific tasks with complete & incomplete status',
-    star: 1,
-    language: 'Express',
-    link: 'https://github.com/nurRiyad/task-manager-api',
-  },
-]
+interface Projects {
+  name: string
+  full_name: string
+  html_url: string
+  description: string
+  stargazers_count: number
+  language: string
+}
+
+const { data: projects } = useFetch<Array<Projects>>('https://api.github.com/users/nurriyad/repos')
+
+const formattedProjects = computed(() => {
+  const data = projects.value?.sort((a, b) => b.stargazers_count - a.stargazers_count)
+  return data?.filter((el, ind) => ind < 6)
+})
 </script>
 
 <template>
@@ -37,8 +22,14 @@ const Projects = [
       Projects
     </h1>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
-      <template v-for="project in Projects" :key="project.name">
-        <CardProject :name="project.name" :description="project.description" :star="project.star" :link="project.link" :language="project.language" />
+      <template v-for="project in formattedProjects" :key="project.name">
+        <CardProject
+          :name="project.full_name"
+          :description="project.description"
+          :star="project.stargazers_count"
+          :link="project.html_url"
+          :language="project.language"
+        />
       </template>
     </div>
   </div>

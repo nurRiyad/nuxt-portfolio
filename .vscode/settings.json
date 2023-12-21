@@ -2,11 +2,14 @@
   "prettier.enable": false,
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "cSpell.words": [
     "antfu",
+    "nuxt",
+    "pinia",
     "Supabase",
-    "Vite"
+    "Vite",
+    "vitejs"
   ]
 }

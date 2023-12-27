@@ -1,30 +1,5 @@
 <script setup lang="ts">
-const schools = [
-  {
-
-    name: 'BSc in Computer Science & Engineering',
-    institute: 'International Islamic University Chittagong',
-    session: '2021',
-    gpa: 'CGPA 3.444 / 4.00',
-    img: 'iiuc.png',
-  },
-  {
-
-    name: 'Higher Secondary School Certificate',
-    institute: 'Bogura Cantonment Public College',
-    session: '2015',
-    gpa: 'GPA 5.00 / 5.00',
-    img: 'bcpsc.png',
-  },
-  {
-    name: 'Secondary School Certificate',
-    institute: 'Bogura Police Line School',
-    session: '2013',
-    gpa: 'GPA 5.00 / 5.00',
-    img: 'plsc.png',
-  },
-
-]
+import { schools } from '@/data/info'
 </script>
 
 <template>

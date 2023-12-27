@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import { github } from '@/data/info'
 </script>
 
 <template>
@@ -18,19 +18,19 @@
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="heroicons:star" size="20" class="dark:text-cyan-500" />
-          <p>Total star Earned 105</p>
+          <p>Total star Earned {{ github.stars }}</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="ic:outline-commit" size="20" class="dark:text-cyan-500" />
-          <p>Total Contribution 1589</p>
+          <p>Total Contribution {{ github.contribution }}</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="ph:git-pull-request" size="20" class="dark:text-cyan-500" />
-          <p>Total Pull Request 230</p>
+          <p>Total Pull Request {{ github.pr }}</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="codicon:issues" size="20" class="dark:text-cyan-500" />
-          <p>Total Issues 22</p>
+          <p>Total Issues {{ github.issue }}</p>
         </div>
       </div>
     </div>

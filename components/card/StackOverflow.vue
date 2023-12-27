@@ -1,27 +1,10 @@
 <script setup lang="ts">
-interface Meddle {
-  bronze: number
-  silver: number
-  gold: number
-}
-
-interface StackOverflow {
-  badge_counts: Meddle
-  reputation: number
-  user_id: number
-  link: string
-}
-
-const { data } = useFetch('https://api.stackexchange.com/2.3/users/16781395?order=desc&sort=reputation&site=stackoverflow&filter=!)DlgOcS2h0G1*66Qs2sho3rmdYa5-jwSJLhT(*71YtqEcC')
-
-const formattedData = computed(() => {
-  return (data.value as { items: Array<StackOverflow> }).items[0]
-})
+import { stackOverflow } from '@/data/info'
 </script>
 
 <template>
   <a
-    :href="formattedData.link"
+    :href="`https://stackoverflow.com/users/${stackOverflow.handle}`"
     target="_blank"
     class=" overflow-hidden border dark:border-gray-700 rounded-xl shadow"
   >
@@ -35,28 +18,28 @@ const formattedData = computed(() => {
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="ph:check-circle" size="20" class="dark:text-cyan-500" />
-          <p>Total Reputation {{ formattedData?.reputation }}</p>
+          <p>Total Reputation {{ stackOverflow.reputation }}</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="fa-regular:handshake" size="19" class="dark:text-cyan-500" />
-          <p>Total Impact ~24K+</p>
+          <p>Total Impact ~{{ stackOverflow.impact }}</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="material-symbols:airline-stops-rounded" size="20" class="dark:text-cyan-500" />
-          <p>Top 4% This Year</p>
+          <p>Top {{ stackOverflow.top }} This Year</p>
         </div>
         <div class="flex items-center space-x-5">
           <div class="flex items-center space-x-1">
             <Icon name="emojione:1st-place-medal" />
-            <p>{{ formattedData?.badge_counts?.gold }}</p>
+            <p>{{ stackOverflow.badge.gold }}</p>
           </div>
           <div class="flex items-center space-x-1">
             <Icon name="emojione:2nd-place-medal" />
-            <p>{{ formattedData?.badge_counts.silver }}</p>
+            <p>{{ stackOverflow.badge.silver }}</p>
           </div>
           <div class="flex items-center space-x-1">
             <Icon name="emojione:3rd-place-medal" />
-            <p>{{ formattedData?.badge_counts.bronze }}</p>
+            <p>{{ stackOverflow.badge.bronze }}</p>
           </div>
         </div>
       </div>

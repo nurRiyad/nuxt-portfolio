@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  devtools: { enabled: true },
+
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-icon',
@@ -7,6 +9,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/robots',
     'nuxt-simple-sitemap',
+    'nuxt-og-image',
   ],
 
   site: {

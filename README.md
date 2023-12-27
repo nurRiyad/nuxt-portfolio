@@ -10,8 +10,10 @@ Hacker News clone built with [Nuxt3](https://nuxt.com), [Vue3](https://vuejs.org
 
 ## Features
 
+- Update all data from one single file `/data/info`
+- Get top github project by api call
 - Server Side Rendered(SSR) with Nuxt3
-- Used Typescript mean fully typesafe
+- Used Typescript mean fully type safe
 - Properly Search Engin optimized
 - Use TailwindCss For designing
 
@@ -20,7 +22,6 @@ Hacker News clone built with [Nuxt3](https://nuxt.com), [Vue3](https://vuejs.org
 <p align="center">
   <a href="https://nurriyad.xyz" target="_blank">
     <img width="1090" src="./assets/img/screely-1.png">
-    <img width="1090" src="./assets/img/screely-2.png">
     <br>
     Live Demo
   </a>

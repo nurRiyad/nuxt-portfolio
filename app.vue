@@ -1,7 +1,6 @@
 <script setup lang="ts">
-const description = 'Hello, I am passionate software software engineer and problem solver. I am currently working at @AppsCode as Senior Software Engineer in @Bytebuilders team'
+const description = 'Hi, I am Riyad. A full-time software engineer building web applications for more than two years with Vue, Nuxt, Typescript, and Javascript.'
 const ogTitle = 'Al Asad Nur Riyad | Senior Software Engineer @AppsCode'
-const twitterDescription = 'Hello, I am passionate software software engineer and problem solver. I am currently working at @AppsCode as Senior Software Engineer in @Bytebuilders team'
 const image
   = 'https://www.nurriyad.xyz/social-card.webp'
 const mySite = 'https://www.nurriyad.xyz'
@@ -46,13 +45,26 @@ useHead({
     },
     {
       name: 'twitter:description',
-      content: twitterDescription,
+      content: description,
     },
     {
       name: 'twitter:image',
       content: image,
     },
   ],
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/favicon.png',
+    },
+  ],
+})
+
+defineOgImageComponent('SeoCard', {
+  headline: 'Greetings 👋',
+  title: 'Nur Riyad',
+  description: 'Senior Software Engineer @AppsCode',
 })
 </script>
 

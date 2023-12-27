@@ -41,6 +41,7 @@ export const workExperience = [
 ]
 
 export const github = {
+  handle: 'nurRiyad',
   stars: 165,
   contribution: 2153,
   pr: 393,

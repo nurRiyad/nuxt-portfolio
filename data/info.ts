@@ -1,7 +1,7 @@
 export const mainBody = {
   name: 'Al Asad Nur Riyad',
   email: 'asadnurriyad@gmail.com',
-  about: 'Hello, I am passionate software software engineer and problem solver. I am currently working at @AppsCode as Senior Software Engineer in @Bytebuilders team',
+  about: 'Hi, I am a full-time software engineer building web applications for more than two years with Vue, Nuxt, Typescript, and Javascript. currently working at @AppsCode as Senior Software Engineer',
   twitter: 'qdnvubp',
   github: 'nurRiyad',
   linkedIn: 'nur-riyad',

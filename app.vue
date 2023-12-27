@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const description = 'Hi, I am Riyad. A full-time software engineer building web applications for more than two years with Vue, Nuxt, Typescript, and Javascript.'
+const description = 'Hi, I am a full-time software engineer building web applications for more than two years with Vue, Nuxt, Typescript, and Javascript.'
 const ogTitle = 'Al Asad Nur Riyad | Senior Software Engineer @AppsCode'
 const image
   = 'https://www.nurriyad.xyz/social-card.webp'

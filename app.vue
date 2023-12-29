@@ -80,6 +80,6 @@ defineOgImageComponent('About', {
 
 <style lang="postcss">
 body {
-  @apply bg-gray-50 dark:bg-gray-900;
+  @apply bg-gray-50 dark:bg-slate-950;
 }
 </style>

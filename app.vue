@@ -61,10 +61,12 @@ useHead({
   ],
 })
 
-defineOgImageComponent('SeoCard', {
+// Generate OG Image
+defineOgImageComponent('About', {
   headline: 'Greetings 👋',
-  title: 'Nur Riyad',
+  title: 'Al Asad Nur Riyad',
   description: 'Senior Software Engineer @AppsCode',
+  link: '/rsz_1riyad.jpg',
 })
 </script>
 

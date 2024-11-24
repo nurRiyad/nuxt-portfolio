@@ -1,7 +1,7 @@
 export const mainBody = {
   name: 'Al Asad Nur Riyad',
   email: 'asadnurriyad@gmail.com',
-  about: 'Hi, I am a full-time software engineer building web applications for more than two years with Vue, Nuxt, Typescript, and Javascript. currently working at @AppsCode as Senior Software Engineer',
+  about: 'Hi, I am a full-time software engineer building web applications for more than three years with Vue, Nuxt, Typescript, and Javascript. currently working at @AppsCode as Senior Software Engineer',
   twitter: 'qdnvubp',
   github: 'nurRiyad',
   linkedIn: 'nur-riyad',
@@ -13,18 +13,20 @@ export const workExperience = [
     title: 'Senior Software Engineer @AppsCode',
     time: 'Aug 2023 - Present',
     left: false,
-    list: [],
-
+    list: [
+      'Lead a team of 6 engineers, mentoring junior developers, enforcing coding standards to ensure consistent, maintainable, and high-quality codebases.',
+      'Actively developing and maintaining 10+ projects, including critical enhancements to client caching, web-based terminals, self-host deployments, and development server performance.',
+      'Currently working on a JavaScript library called form-builder, published on NPM, which generates complex, dependent forms from JSON. Also conducting a POC for a web-based email client app to display alerts and enable actions accordingly.',
+    ],
   },
   {
     title: 'Software Engineer @AppsCode',
     time: 'Aug 2021 - Jul 2023',
     left: true,
     list: [
-      'Develop k8s cluster dashboard Console UI & k8s database dashboard KubeDB UI using Vue3, Typescript, Vuex, Vue Router',
-      'Develop Account UI(SSR) with nuxt2, vuex & later successfully migrated to nuxt3',
-      'Develop learning platform(SSG) using Nuxt3, Typescript, Pinia, Firebase, Vue Router',
-      'Maintain & Update AppsCode Design System using Vue2 & later migrated to vue3',
+      'Contributed to Kubernetes cluster dashboard and KubeDB dashboards, implementing new features and resolving issues.',
+      'Developed and maintained an SSR application for user and organization management. Built an SSG application for AppsCode’s learning platform.',
+      'Enhanced AppsCode’s component library by creating and integrating reusable UI components in AppsCodes Design System ',
     ],
 
   },
@@ -34,7 +36,7 @@ export const workExperience = [
     left: false,
     list: [
       'Work as a teacher assistant for courses like Computer Programming I, Computer Programming II & Numerical Analysis.',
-      'Take class test, assignment & evaluate papers. Help Teacher to take Final Viva',
+      'Mentored students, conducted multiple classes, and guided them to improve their problem-solving skills and contest performance.',
     ],
 
   },

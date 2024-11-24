@@ -1,20 +1,22 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  compatibilityDate: '2024-08-26',
   devtools: { enabled: true },
 
   modules: [
-    '@nuxtjs/tailwindcss',
-    'nuxt-icon',
     '@nuxt/image',
-    '@nuxtjs/color-mode',
     '@nuxtjs/robots',
-    'nuxt-simple-sitemap',
     'nuxt-og-image',
+    '@nuxtjs/sitemap',
+    '@nuxt/ui',
+    '@vueuse/nuxt',
   ],
 
   site: {
     url: 'https://www.nurriyad.xyz/',
+    name: 'Riyad\'s Personal Website',
   },
+
   app: {
     head: {
       charset: 'utf-16',

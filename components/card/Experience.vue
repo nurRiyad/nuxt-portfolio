@@ -85,7 +85,7 @@ const computeClass = computed(() => {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 5000px) {
    .container:before {
       left: 8px;
       width: 2px;

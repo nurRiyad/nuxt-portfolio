@@ -1,9 +1,9 @@
 <script setup lang="ts">
 interface Props {
-  left: boolean
-  title: string
-  time: string
-  list: Array<string>
+  left?: boolean
+  title?: string
+  time?: string
+  list?: Array<string>
 }
 
 const props = withDefaults(defineProps<Props>(), {

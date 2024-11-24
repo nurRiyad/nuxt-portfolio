@@ -1,10 +1,10 @@
 <script setup lang="ts">
 interface Props {
-  name: string
-  session: string
-  gpa: string
-  institute: string
-  img: string
+  name?: string
+  session?: string
+  gpa?: string
+  institute?: string
+  img?: string
 }
 
 withDefaults(defineProps<Props>(), {

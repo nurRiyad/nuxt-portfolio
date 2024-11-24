@@ -1,7 +1,7 @@
 <script setup lang="ts">
 interface Props {
-  name: string
-  link: string
+  name?: string
+  link?: string
 }
 
 withDefaults(defineProps<Props>(), {

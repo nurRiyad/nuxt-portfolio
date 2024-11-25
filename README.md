@@ -21,7 +21,7 @@ Hacker News clone built with [Nuxt3](https://nuxt.com), [Vue3](https://vuejs.org
 
 <p align="center">
   <a href="https://nurriyad.xyz" target="_blank">
-    <img width="1090" src="./assets/img/screely-1.png">
+    <img width="1090" src="./app/assets/img/screely-1.png">
     <br>
     Live Demo
   </a>

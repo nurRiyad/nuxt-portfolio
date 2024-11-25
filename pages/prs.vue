@@ -2,7 +2,7 @@
 import type { Contributions } from '~~/types'
 
 const colorMode = useColorMode()
-const { data: contributions } = await useFetch<Contributions>('/api/contributions')
+const { data: contributions } = await useFetch<Contributions>('/api/contributions?per_page=50')
 
 if (!contributions.value)
   throw createError('Could not load User activity')
@@ -85,8 +85,8 @@ useSeoMeta({
       <UDivider class="mt-2 sm:mt-6 mb-6 sm:mb-10 w-1/2 mx-auto animate-pulse" />
     </div>
 
-    <div class="flex flex-col gap-6 sm:gap-10">
-      <PRView v-for="pr of prs" :key="pr.url" :data="pr" />
+    <div class="flex flex-col gap-4">
+      <CardPullRequest v-for="pr of prs" :key="pr.url" :data="pr" />
     </div>
   </UContainer>
 </template>

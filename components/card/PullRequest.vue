@@ -14,7 +14,7 @@ function formatStars(stars: number) {
 </script>
 
 <template>
-  <div class="flex items-center gap-2 sm:gap-4">
+  <div class="flex items-center gap-2 sm:gap-4 sm:p-4 p-2 border dark:border-gray-700 shadow rounded-xl">
     <a
       :href="`https://github.com/${data.repo}`"
       target="_blank"
@@ -58,7 +58,10 @@ function formatStars(stars: number) {
           #{{ data.number }}
         </a>
 
-        <time :datatime="data.created_at" class="text-xs sm:text-sm text-gray-500 dark:text-gray-400">{{ useTimeAgo(new Date(data.created_at)) }}</time>
+        <time
+          :datatime="data.created_at"
+          class="text-xs sm:text-sm text-gray-500 dark:text-gray-400"
+        >{{ useTimeAgo(new Date(data.created_at)) }}</time>
       </div>
     </div>
   </div>

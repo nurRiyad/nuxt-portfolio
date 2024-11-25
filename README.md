@@ -3,7 +3,7 @@
 ### Built with
 
 <p align="center">
-    <img width="200" src="./assets/img/logo.png">
+    <img width="200" src="./app/assets/img/logo.png">
 </p>
 
 Hacker News clone built with [Nuxt3](https://nuxt.com), [Vue3](https://vuejs.org) & [TailwindCss](https://tailwindcss.com/)

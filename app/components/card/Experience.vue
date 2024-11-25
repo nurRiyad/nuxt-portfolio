@@ -1,9 +1,9 @@
 <script setup lang="ts">
 interface Props {
-  left: boolean
-  title: string
-  time: string
-  list: Array<string>
+  left?: boolean
+  title?: string
+  time?: string
+  list?: Array<string>
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -85,7 +85,7 @@ const computeClass = computed(() => {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 5000px) {
    .container:before {
       left: 8px;
       width: 2px;

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { github } from '@/data/info'
+import { github } from '../data/info'
 interface Projects {
   name: string
   full_name: string

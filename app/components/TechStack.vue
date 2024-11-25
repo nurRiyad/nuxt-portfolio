@@ -26,10 +26,19 @@ const colorMode = useColorMode()
             <Icon name="simple-icons:express" :color="colorMode" class="hover:scale-[1.1] ease-out transition-transform" size="35" />
           </div>
           <div class="border dark:border-gray-600 p-2 border-gray-200 bg-gray-100 dark:bg-gray-700 rounded-md">
+            <Icon name="logos:nestjs" class="hover:scale-[1.1] ease-out transition-transform" size="35" />
+          </div>
+          <div class="border dark:border-gray-600 p-2 border-gray-200 bg-gray-100 dark:bg-gray-700 rounded-md">
             <Icon name="logos:vue" class="hover:scale-[1.1] ease-out transition-transform" size="35" />
           </div>
           <div class="border dark:border-gray-600 p-2 border-gray-200 bg-gray-100 dark:bg-gray-700 rounded-md">
             <Icon name="logos:nuxt-icon" class="hover:scale-[1.1] ease-out transition-transform" size="35" />
+          </div>
+          <div class="border dark:border-gray-600 p-2 border-gray-200 bg-gray-100 dark:bg-gray-700 rounded-md">
+            <Icon name="logos:react" class="hover:scale-[1.1] ease-out transition-transform" size="35" />
+          </div>
+          <div class="border dark:border-gray-600 p-2 border-gray-200 bg-gray-100 dark:bg-gray-700 rounded-md">
+            <Icon name="logos:nextjs-icon" class="hover:scale-[1.1] ease-out transition-transform" size="35" />
           </div>
           <div class="border dark:border-gray-600 p-2 border-gray-200 bg-gray-100 dark:bg-gray-700 rounded-md">
             <Icon name="logos:vitejs" class="hover:scale-[1.1] ease-out transition-transform" size="35" />
@@ -38,13 +47,16 @@ const colorMode = useColorMode()
             <Icon name="logos:pinia" class="hover:scale-[1.1] ease-out transition-transform" size="35" />
           </div>
           <div class="border dark:border-gray-600 p-2 border-gray-200 bg-gray-100 dark:bg-gray-700 rounded-md">
-            <Icon name="logos:supabase-icon" class="hover:scale-[1.1] ease-out transition-transform" size="35" />
+            <Icon name="logos:react-query-icon" class="hover:scale-[1.1] ease-out transition-transform" size="35" />
           </div>
           <div class="border dark:border-gray-600 p-2 border-gray-200 bg-gray-100 dark:bg-gray-700 rounded-md">
-            <Icon name="logos:firebase" class="hover:scale-[1.1] ease-out transition-transform" size="35" />
+            <Icon name="logos:cypress-icon" class="hover:scale-[1.1] ease-out transition-transform" size="35" />
           </div>
           <div class="border dark:border-gray-600 p-2 border-gray-200 bg-gray-100 dark:bg-gray-700 rounded-md">
-            <Icon name="logos:mongodb-icon" class="hover:scale-[1.1] ease-out transition-transform" size="35" />
+            <Icon name="logos:cloudflare-workers-icon" class="hover:scale-[1.1] ease-out transition-transform" size="35" />
+          </div>
+          <div class="border dark:border-gray-600 p-2 border-gray-200 bg-gray-100 dark:bg-gray-700 rounded-md">
+            <Icon name="logos:aws-ec2" class="hover:scale-[1.1] ease-out transition-transform" size="35" />
           </div>
           <div class="border dark:border-gray-600 p-2 border-gray-200 bg-gray-100 dark:bg-gray-700 rounded-md">
             <Icon name="logos:linux-tux" class="hover:scale-[1.1] ease-out transition-transform" size="35" />

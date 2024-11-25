@@ -1,11 +1,11 @@
 <script setup lang="ts">
 interface Props {
-  name: string
-  handle: string
-  rating: number
-  participate: number
-  solved: number
-  link: string
+  name?: string
+  handle?: string
+  rating?: number
+  participate?: number
+  solved?: number
+  link?: string
 }
 
 withDefaults(defineProps<Props>(), {

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // https://codepen.io/hassan-kamal/pen/NNvYEQ
-import { workExperience } from '@/data/info'
+import { workExperience } from '../data/info'
 </script>
 
 <template>
@@ -10,10 +10,9 @@ import { workExperience } from '@/data/info'
     </h1>
 
     <div class="container">
-      <CardExprience
+      <CardExperience
         v-for="d in workExperience"
         :key="d.title"
-        :left="d.left"
         :title="d.title"
         :time="d.time"
         :list="d.list"
@@ -40,15 +39,15 @@ import { workExperience } from '@/data/info'
    content: '';
    position: absolute;
    top: 7px;
-   left: 50%;
+   left: 8px;
    margin-left: -1px;
    width: 2px;
-   height: 100%;
+   height: 93%;
    background: #CCD1D9;
    z-index: 1
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 5000px) {
    .container:before {
       left: 8px;
       width: 2px;

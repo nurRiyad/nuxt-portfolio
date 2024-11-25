@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-08-26',
+  future: {
+    compatibilityVersion: 4,
+  },
   devtools: { enabled: true },
 
   modules: [
@@ -40,6 +43,6 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
 
-  plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],
+  plugins: [{ src: './app/plugins/vercel.ts', mode: 'client' }],
 
 })

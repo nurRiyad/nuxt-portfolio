@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // https://codepen.io/hassan-kamal/pen/NNvYEQ
-import { workExperience } from '@/data/info'
+import { workExperience } from '../data/info'
 </script>
 
 <template>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { achievement } from '@/data/info'
+import { achievement } from '../data/info'
 </script>
 
 <template>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { mainBody } from '@/data/info'
+import { mainBody } from '../data/info'
 const colorMode = useColorMode()
 
 const onDarkClick = () => colorMode.value = 'light'

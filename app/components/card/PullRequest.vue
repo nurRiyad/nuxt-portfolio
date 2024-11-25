@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Contributions } from '~~/types'
+import type { Contributions } from '@/types'
 
 defineProps<{
   data: Contributions['prs'][number]

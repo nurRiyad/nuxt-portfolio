@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { cp } from '@/data/info'
+import { cp } from '../data/info'
 </script>
 
 <template>

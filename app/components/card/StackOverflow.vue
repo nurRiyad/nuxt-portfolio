@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { stackOverflow } from '@/data/info'
+import { stackOverflow } from '../../data/info'
 </script>
 
 <template>

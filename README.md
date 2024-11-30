@@ -20,7 +20,7 @@ Hacker News clone built with [Nuxt3](https://nuxt.com), [Vue3](https://vuejs.org
 ## Preview
 
 <p align="center">
-  <a href="https://nurriyad.xyz" target="_blank">
+  <a href="https://nurriyad.com" target="_blank">
     <img width="1090" src="./app/assets/img/screely-1.png">
     <br>
     Live Demo
@@ -29,7 +29,7 @@ Hacker News clone built with [Nuxt3](https://nuxt.com), [Vue3](https://vuejs.org
 
 ## Demo
 
-https://nurriyad.xyz
+https://nurriyad.com
 
 > Hosted on [Vercel](https://vercel.com/): `npm run build`
 

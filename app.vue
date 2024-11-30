@@ -2,8 +2,8 @@
 const description = 'Hi, I am a full-time software engineer building web applications for more than two years with Vue, Nuxt, Typescript, and Javascript.'
 const ogTitle = 'Al Asad Nur Riyad | Senior Software Engineer @AppsCode'
 const image
-  = 'https://www.nurriyad.xyz/social-card.webp'
-const mySite = 'https://www.nurriyad.xyz'
+  = 'https://www.nurriyad.com/social-card.webp'
+const mySite = 'https://www.nurriyad.com'
 useHead({
   htmlAttrs: {
     lang: 'en',

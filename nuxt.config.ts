@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   ],
 
   site: {
-    url: 'https://www.nurriyad.xyz/',
+    url: 'https://www.nurriyad.com/',
     name: 'Riyad\'s Personal Website',
   },
 

@@ -9,7 +9,7 @@ const colorMode = useColorMode()
     </h1>
     <div class="overflow-hidden border dark:border-gray-700 shadow rounded-xl">
       <div class="ease-out transition-transform px-5 py-3">
-        <div class="grid gap-2 grid-cols-[repeat(auto-fit,_minmax(80px,_1fr))]">
+        <div class="grid gap-2 grid-cols-[repeat(auto-fit,_minmax(5rem,_1fr))]">
           <div class="border dark:border-gray-600 p-2 border-gray-200 bg-gray-100 dark:bg-gray-700 rounded-md flex items-center justify-center">
             <Icon name="logos:javascript" class="hover:scale-[1.1] ease-out transition-transform" size="35" />
           </div>

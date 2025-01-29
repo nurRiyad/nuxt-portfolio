@@ -6,4 +6,5 @@ node_modules
 .output
 .env
 .vscode
+.DS_Store
 dist

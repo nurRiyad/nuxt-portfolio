@@ -66,7 +66,7 @@ defineOgImageComponent('About', {
   headline: 'Greetings 👋',
   title: 'Al Asad Nur Riyad',
   description: 'Senior Software Engineer @AppsCode',
-  link: '/rsz_1riyad.jpg',
+  link: '/riyad.jpg',
 })
 </script>
 

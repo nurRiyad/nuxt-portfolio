@@ -1,4 +1,4 @@
-import type { Contributions, PullRequest, User } from '@/types/index'
+import type { Contributions, PullRequest, User } from '@@/types/index'
 
 export default defineCachedEventHandler(async (event) => {
   const octokit = useOctokit()

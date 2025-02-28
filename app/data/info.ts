@@ -1,7 +1,7 @@
 export const mainBody = {
   name: 'Al Asad Nur Riyad',
   email: 'asadnurriyad@gmail.com',
-  about: 'Hi, I am a full-time software engineer building web applications for more than three years with TypeScript, JavaScript & Node.js. currently working at @AppsCode as Senior Software Engineer',
+  about: 'Hi, I am a full-time software engineer building web applications for more than three years with TypeScript, JavaScript & Node.js. currently working at @FieldNation as Software Engineer',
   twitter: 'qdnvubp',
   github: 'nurRiyad',
   linkedIn: 'nur-riyad',
@@ -10,8 +10,18 @@ export const mainBody = {
 
 export const workExperience = [
   {
+    title: 'Software Engineer @FieldNation',
+    time: 'Feb 2025 - Present',
+    left: false,
+    list: [
+      'Tech Stack: Node.js, NestJS, PHP, Docker.',
+      'Cross-Platform Development: Involved with React Native for cross-platform projects.',
+      'Workplace Operations: Enhancing internal tools and systems for operational efficiency.',
+    ],
+  },
+  {
     title: 'Senior Software Engineer @AppsCode',
-    time: 'Aug 2023 - Present',
+    time: 'Aug 2023 - Jan 2025',
     left: false,
     list: [
       'Lead a team of 6 engineers, mentoring junior developers, enforcing coding standards to ensure consistent, maintainable, and high-quality codebases.',

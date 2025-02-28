@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const description = 'Hi, I am a full-time software engineer building web applications for more than two years with Vue, Nuxt, Typescript, and Javascript.'
-const ogTitle = 'Al Asad Nur Riyad | Senior Software Engineer @AppsCode'
+const ogTitle = 'Al Asad Nur Riyad | Software Engineer @FieldNation'
 const image
   = 'https://www.nurriyad.com/social-card.webp'
 const mySite = 'https://www.nurriyad.com'
@@ -65,7 +65,7 @@ useHead({
 defineOgImageComponent('About', {
   headline: 'Greetings 👋',
   title: 'Al Asad Nur Riyad',
-  description: 'Senior Software Engineer @AppsCode',
+  description: 'Software Engineer @FieldNation',
   link: '/riyad.jpg',
 })
 </script>

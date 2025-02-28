@@ -4,7 +4,6 @@ definePageMeta({
     function (_to, _from) {
       return navigateTo('/')
     },
-    'auth',
   ],
 })
 </script>

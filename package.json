@@ -2,13 +2,13 @@
   "name": "riyads-portfolio",
   "version": "1.0.1",
   "private": true,
-  "license": "MIT",
+  "packageManager": "pnpm@10.24.0",
   "author": "Al Asad Nur Riyad",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/riyadnur/riyads-portfolio"
   },
-  "packageManager": "pnpm@10.24.0",
   "engines": {
     "node": ">=24.11.1"
   },
@@ -22,7 +22,7 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.2.0",
+    "@antfu/eslint-config": "^6.3.0",
     "@iconify-json/logos": "^1.2.10",
     "@nuxt/icon": "2.1.0",
     "@nuxt/image": "^2.0.0",

@@ -88,14 +88,16 @@ export const cp = [
     participate: 76,
     solved: 864,
     link: 'https://codeforces.com/profile/nur_riyad',
-  }, {
+  },
+  {
     name: 'AtCoder',
     handle: 'nur_riyad',
     rating: 837,
     participate: 19,
     solved: 200,
     link: 'https://atcoder.jp/users/nur_riyad',
-  }, {
+  },
+  {
     name: 'LeetCode',
     handle: 'nur_riyad',
     rating: 1532,

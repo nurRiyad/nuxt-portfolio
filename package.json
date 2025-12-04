@@ -39,5 +39,8 @@
     "prettier": "^3.7.3",
     "tailwindcss": "^4.1.17",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "vue": "^3.5.25"
   }
 }

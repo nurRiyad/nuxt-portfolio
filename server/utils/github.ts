@@ -6,6 +6,9 @@ let _octokit: Octokit
 export function useOctokit() {
   if (!_octokit) {
     const config = useRuntimeConfig()
+    if (!config.githubToken) {
+      throw new Error('GitHub token is not configured. Please set GITHUB_TOKEN environment variable.')
+    }
     _octokit = new Octokit({
       auth: config.githubToken,
     })

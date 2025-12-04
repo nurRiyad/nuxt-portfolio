@@ -3,6 +3,15 @@
   "version": "1.0.1",
   "private": true,
   "license": "MIT",
+  "author": "Al Asad Nur Riyad",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/riyadnur/riyads-portfolio"
+  },
+  "packageManager": "pnpm@10.24.0",
+  "engines": {
+    "node": ">=24.11.1"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev --port=4000",

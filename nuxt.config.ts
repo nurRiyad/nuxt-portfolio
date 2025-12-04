@@ -1,19 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-08-26',
-  future: {
-    compatibilityVersion: 4,
-  },
   devtools: { enabled: true },
 
   modules: [
+    '@nuxt/ui',
     '@nuxt/image',
     '@nuxtjs/robots',
     'nuxt-og-image',
     '@nuxtjs/sitemap',
-    '@nuxt/ui',
     '@vueuse/nuxt',
+    '@nuxt/icon',
   ],
+
+  css: ['~/assets/css/main.css'],
 
   site: {
     url: 'https://www.nurriyad.com/',

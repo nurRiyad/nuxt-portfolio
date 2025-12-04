@@ -2,7 +2,6 @@
   "name": "riyads-portfolio",
   "version": "1.0.1",
   "private": true,
-  "packageManager": "pnpm@9.1.1+sha256.9551e803dcb7a1839fdf5416153a844060c7bce013218ce823410532504ac10b",
   "license": "MIT",
   "scripts": {
     "build": "nuxt build",
@@ -14,19 +13,22 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.35.2",
-    "@nuxt/image": "^1.1.0",
-    "@nuxt/ui": "^2.19.2",
-    "@nuxtjs/robots": "^5.0.0",
-    "@nuxtjs/sitemap": "^6.0.0-beta.4",
+    "@antfu/eslint-config": "^6.2.0",
+    "@iconify-json/logos": "^1.2.10",
+    "@nuxt/icon": "2.1.0",
+    "@nuxt/image": "^2.0.0",
+    "@nuxt/ui": "^4.2.1",
+    "@nuxtjs/robots": "^5.6.0",
+    "@nuxtjs/sitemap": "^7.4.7",
     "@vercel/analytics": "^0.1.8",
-    "@vueuse/core": "^11.3.0",
-    "@vueuse/nuxt": "^11.3.0",
-    "eslint": "^8.33.0",
-    "nuxt": "^3.15.4",
-    "nuxt-og-image": "^3.0.0-rc.12",
+    "@vueuse/core": "^14.1.0",
+    "@vueuse/nuxt": "^14.1.0",
+    "eslint": "^9.39.1",
+    "nuxt": "^4.2.1",
+    "nuxt-og-image": "^5.1.12",
     "octokit": "^4.0.2",
-    "prettier": "^2.8.0",
-    "typescript": "^4.9.5"
+    "prettier": "^3.7.3",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3"
   }
 }

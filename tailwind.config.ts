@@ -3,7 +3,8 @@ export default {
   theme: {
     fontFamily: {
       sans: [
-        'Space Grotesk', 'sans-serif',
+        'Space Grotesk',
+        'sans-serif',
       ],
     },
   },

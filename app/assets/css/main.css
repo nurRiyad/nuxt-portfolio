@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@layer base {
+  html {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}

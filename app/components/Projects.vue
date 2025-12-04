@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { github } from '../data/info'
+
 interface Projects {
   name: string
   full_name: string
@@ -12,8 +13,11 @@ interface Projects {
 const { data: projects } = useFetch<Array<Projects>>(`https://api.github.com/users/${github.handle}/repos`)
 
 const formattedProjects = computed(() => {
-  const data = projects.value?.sort((a, b) => b.stargazers_count - a.stargazers_count)
-  return data?.filter((el, ind) => ind < 6)
+  if (!projects.value)
+    return []
+  return [...projects.value]
+    .sort((a, b) => b.stargazers_count - a.stargazers_count)
+    .filter((el, ind) => ind < 6)
 })
 </script>
 

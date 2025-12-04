@@ -3,7 +3,7 @@ import type { Contributions, PullRequest, User } from '@@/types/index'
 export default defineCachedEventHandler(async (event) => {
   try {
     const config = useRuntimeConfig()
-    
+
     // Return empty data if GitHub token is not configured
     if (!config.githubToken) {
       console.warn('GitHub token not configured. Skipping contributions fetch.')

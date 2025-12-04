@@ -59,7 +59,7 @@ export default defineNuxtConfig({
   },
 
   runtimeConfig: {
-    githubToken: process.env.GITHUB_TOKEN || '',
+    githubToken: '',
     public: {
       // Public runtime config (exposed to client-side)
     },

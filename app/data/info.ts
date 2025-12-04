@@ -14,9 +14,10 @@ export const workExperience = [
     time: 'Feb 2025 - Present',
     left: false,
     list: [
-      'Tech Stack: Node.js, NestJS, PHP, Docker.',
-      'Cross-Platform Development: Involved with React Native for cross-platform projects.',
-      'Workplace Operations: Enhancing internal tools and systems for operational efficiency.',
+      'Working on the Workplace Operations (WOOP) team, owning core services that power payment calculations, invoices, contracts, and money-related workflows—one of the most critical areas of the platform.',
+      'Upgrading microservices to fix vulnerabilities and improve system reliability, ensuring robust and secure financial operations.',
+      'Contributing to key projects including Salesforce support chatbot balance calculations and provider onboarding flows.',
+      'Tech Stack: Node.js, NestJS, PHP, Docker, MySQL, Redis, RabbitMQ, AWS, Kubernetes.',
     ],
   },
   {

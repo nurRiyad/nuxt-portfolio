@@ -39,15 +39,15 @@ https://nurriyad.com
 
 ```bash
 # install dependencies
-npm install
+pnpm install
 
 # serve in dev mode, with hot reload at localhost:5173
-npm run dev
+pnpm run dev
 
 # build for production
-npm run build
+pnpm run build
 
 # serve in production mode
-npm run  preview
+pnpm run  preview
 
 ```

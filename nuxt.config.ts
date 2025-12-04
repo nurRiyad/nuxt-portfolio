@@ -45,4 +45,14 @@ export default defineNuxtConfig({
 
   plugins: [{ src: './app/plugins/vercel.ts', mode: 'client' }],
 
+  vite: {
+    css: {
+      devSourcemap: true,
+    },
+    build: {
+      cssCodeSplit: true,
+      sourcemap: false, // Disable sourcemaps in production to avoid warnings
+    },
+  },
+
 })

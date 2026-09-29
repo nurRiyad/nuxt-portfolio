@@ -28,6 +28,7 @@ export const workExperience = [
       'Led a team of six engineers, mentoring junior developers and setting coding standards to support consistent, maintainable code.',
       'Developed and maintained more than 10 projects, improving client-side caching, web-based terminals, self-hosted deployments, and development server performance.',
       'Built Form Builder, a JavaScript library published on npm that generates dependent forms from JSON, and prototyped a web-based email client for displaying alerts and taking actions.',
+      'Tech stack: JavaScript, Vue, Kubernetes.',
     ],
   },
   {
@@ -38,6 +39,7 @@ export const workExperience = [
       'Added features and resolved issues in Kubernetes cluster and KubeDB dashboards.',
       'Developed and maintained a server-rendered application for user and organization management, and built a statically generated application for AppsCode’s learning platform.',
       'Expanded AppsCode’s design system with reusable UI components.',
+      'Tech stack: Vue, Kubernetes, KubeDB.',
     ],
 
   },

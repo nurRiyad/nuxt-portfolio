@@ -4,5 +4,17 @@
 @layer base {
   html {
     font-family: 'Space Grotesk', sans-serif;
+    background-color: #f1eee8;
+    min-height: 100%;
+  }
+
+  body {
+    min-height: 100vh;
+    background-color: #f1eee8;
+  }
+
+  html.dark,
+  html.dark body {
+    background-color: #020617;
   }
 }

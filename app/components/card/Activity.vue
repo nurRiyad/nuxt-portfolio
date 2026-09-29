@@ -14,12 +14,12 @@ function formatStars(stars: number) {
 </script>
 
 <template>
-  <div class="flex items-center gap-2 sm:gap-4 sm:p-4 p-2 border dark:border-gray-700 shadow rounded-xl">
+  <div class="flex items-center gap-2 sm:gap-4 sm:p-4 p-2 border border-gray-200/80 dark:border-gray-700/80 bg-white dark:bg-slate-800/60 shadow-sm rounded-xl transition-colors hover:border-gray-300 dark:hover:border-gray-600">
     <a
       :href="`https://github.com/${data.repo}`"
       target="_blank"
       rel="noopener noreferrer"
-      class="size-10 sm:size-12 shrink-0 border border-gray-200 dark:border-gray-800 overflow-hidden shadow-sm"
+      class="size-10 sm:size-12 shrink-0 border border-gray-200 dark:border-gray-700 overflow-hidden"
       :class="[data.type === 'Organization' ? 'rounded-lg' : 'rounded-full']"
       :aria-label="`${data.repo} on GitHub`"
     >

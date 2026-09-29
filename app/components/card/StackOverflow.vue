@@ -22,11 +22,7 @@ import { stackOverflow } from '../../data/info'
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="fa-regular:handshake" size="19" class="dark:text-cyan-500" />
-          <p>Total Impact ~{{ stackOverflow.impact }}</p>
-        </div>
-        <div class="flex items-center space-x-2">
-          <Icon name="material-symbols:airline-stops-rounded" size="20" class="dark:text-cyan-500" />
-          <p>Top {{ stackOverflow.top }} This Year</p>
+          <p>Total Reached {{ stackOverflow.impact }}</p>
         </div>
         <div class="flex items-center space-x-5">
           <div class="flex items-center space-x-1">

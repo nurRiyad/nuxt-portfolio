@@ -14,10 +14,10 @@ export const workExperience = [
     time: 'Feb 2025 - Present',
     left: false,
     list: [
-      'Working on the Workplace Operations (WOOP) team, owning core services that power payment calculations, invoices, contracts, and money-related workflows—one of the most critical areas of the platform.',
-      'Upgrading microservices to fix vulnerabilities and improve system reliability, ensuring robust and secure financial operations.',
-      'Contributing to key projects including Salesforce support chatbot balance calculations and provider onboarding flows.',
-      'Tech Stack: Node.js, NestJS, PHP, Docker, MySQL, Redis, RabbitMQ, AWS, Kubernetes.',
+      'Own core services on the Workplace Operations (WOOP) team that support payment calculations, invoicing, contracts, and other financial workflows.',
+      'Improve microservice security and reliability by addressing vulnerabilities across services that support financial operations.',
+      'Contribute to key initiatives, including balance calculations for a Salesforce support chatbot and provider onboarding flows.',
+      'Tech stack: Node.js, NestJS, PHP, Docker, MySQL, Redis, RabbitMQ, AWS, Kubernetes.',
     ],
   },
   {
@@ -25,9 +25,9 @@ export const workExperience = [
     time: 'Aug 2023 - Jan 2025',
     left: false,
     list: [
-      'Lead a team of 6 engineers, mentoring junior developers, enforcing coding standards to ensure consistent, maintainable, and high-quality codebases.',
-      'Actively developing and maintaining 10+ projects, including critical enhancements to client caching, web-based terminals, self-host deployments, and development server performance.',
-      'Currently working on a JavaScript library called form-builder, published on NPM, which generates complex, dependent forms from JSON. Also conducting a POC for a web-based email client app to display alerts and enable actions accordingly.',
+      'Led a team of six engineers, mentoring junior developers and setting coding standards to support consistent, maintainable code.',
+      'Developed and maintained more than 10 projects, improving client-side caching, web-based terminals, self-hosted deployments, and development server performance.',
+      'Built Form Builder, a JavaScript library published on npm that generates dependent forms from JSON, and prototyped a web-based email client for displaying alerts and taking actions.',
     ],
   },
   {
@@ -35,9 +35,9 @@ export const workExperience = [
     time: 'Aug 2021 - Jul 2023',
     left: true,
     list: [
-      'Contributed to Kubernetes cluster dashboard and KubeDB dashboards, implementing new features and resolving issues.',
-      'Developed and maintained an SSR application for user and organization management. Built an SSG application for AppsCode’s learning platform.',
-      'Enhanced AppsCode’s component library by creating and integrating reusable UI components in AppsCodes Design System ',
+      'Added features and resolved issues in Kubernetes cluster and KubeDB dashboards.',
+      'Developed and maintained a server-rendered application for user and organization management, and built a statically generated application for AppsCode’s learning platform.',
+      'Expanded AppsCode’s design system with reusable UI components.',
     ],
 
   },
@@ -46,8 +46,8 @@ export const workExperience = [
     time: 'Aug 2020 - Jul 2021',
     left: false,
     list: [
-      'Work as a teacher assistant for courses like Computer Programming I, Computer Programming II & Numerical Analysis.',
-      'Mentored students, conducted multiple classes, and guided them to improve their problem-solving skills and contest performance.',
+      'Assisted with Computer Programming I, Computer Programming II, and Numerical Analysis courses.',
+      'Mentored students, led classes, and helped them strengthen their problem-solving skills and programming contest performance.',
     ],
 
   },
@@ -55,22 +55,22 @@ export const workExperience = [
 
 export const github = {
   handle: 'nurRiyad',
-  stars: 165,
-  contribution: 2153,
-  pr: 393,
-  issue: 69,
+  stars: 459,
+  commits: 160,
+  pr: 182,
+  issue: 37,
+  lastYearContributions: 1,
 }
 
 export const stackOverflow = {
   handle: '16781395/nur-riyad',
-  reputation: 1194,
+  reputation: 1380,
   badge: {
     gold: 0,
-    silver: 7,
-    bronze: 23,
+    silver: 15,
+    bronze: 25,
   },
-  impact: '39k',
-  top: '4%',
+  impact: '84k',
 }
 
 export const cp = [

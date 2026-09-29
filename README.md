@@ -1,53 +1,54 @@
 # Personal Portfolio
 
+A Nuxt portfolio for Al Asad Nur Riyad. It presents profile and contact links, recent GitHub activity, work experience, technologies, projects, open-source profiles, programming contests, education, and achievements.
+
 ## Built with
 
-<p align="center">
-    <img width="200" src="./app/assets/img/logo.png" alt="Riyad's portfolio logo">
-</p>
-
-Hacker News clone built with [Nuxt3](https://nuxt.com), [Vue3](https://vuejs.org) & [TailwindCss](https://tailwindcss.com/)
+- Nuxt 4 and Vue 3
+- TypeScript
+- Tailwind CSS 4 and Nuxt UI
+- Nuxt Image and Iconify
+- GitHub API integration for recent activity and projects
 
 ## Features
 
-- Update all data from one single file `/data/info`
-- Get top github project by api call
-- Server Side Rendered(SSR) with Nuxt3
-- Used Typescript mean fully type safe
-- Properly Search Engin optimized
-- Use TailwindCss For designing
+- Profile and social links configured in `app/data/info.ts`
+- Recent GitHub activity loaded through a server API
+- Project and profile cards for open-source work and competitive programming
+- Light and dark themes
+- Server-side rendering and search engine metadata
 
 ## Preview
 
 <p align="center">
-  <a href="https://nurriyad.com" target="_blank">
+  <a href="https://www.nurriyad.com" target="_blank" rel="noopener noreferrer">
     <img width="1090" src="./app/assets/img/screely-1.png" alt="Screenshot preview of the portfolio website">
     <br>
     Live Demo
   </a>
 </p>
 
-## Demo
+## Requirements
 
-https://nurriyad.com
+- Node.js 24.11.1 or newer
+- pnpm 10.24.0 or newer
 
-> Hosted on [Vercel](https://vercel.com/): `npm run build`
-
-## Build Setup
-
-**Requires Node.js 16+**
+## Development
 
 ```bash
 # install dependencies
 pnpm install
 
-# serve in dev mode, with hot reload at localhost:5173
-pnpm run dev
+# start the development server at http://localhost:4000
+pnpm dev
 
 # build for production
-pnpm run build
+pnpm build
 
-# serve in production mode
-pnpm run  preview
-
+# preview the production build
+pnpm preview
 ```
+
+## Deployment
+
+The site is configured for deployment on Vercel. Build the app with `pnpm build` before deployment.

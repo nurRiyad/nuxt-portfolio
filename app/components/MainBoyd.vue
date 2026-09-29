@@ -3,8 +3,8 @@ import { mainBody } from '../data/info'
 
 const colorMode = useColorMode()
 
-const onDarkClick = () => colorMode.value = 'light'
-const onLightClick = () => colorMode.value = 'dark'
+const onDarkClick = () => colorMode.preference = 'light'
+const onLightClick = () => colorMode.preference = 'dark'
 
 const mode = computed(() => colorMode.value)
 </script>
@@ -27,6 +27,9 @@ const mode = computed(() => colorMode.value)
           </a>
           <a :href="`https://www.linkedin.com/in/${mainBody.linkedIn}`" target="_blank" title="LinkedIn" class="hover:scale-110 transition-all ease-out">
             <Icon name="devicon:linkedin" size="20" />
+          </a>
+          <a href="https://blog-nurriyad.vercel.app/" target="_blank" rel="noopener noreferrer" title="Blog" aria-label="Blog" class="hover:scale-110 transition-all ease-out">
+            <Icon name="logos:blogger" size="20" />
           </a>
           <a :href="`https://stackoverflow.com/users/16781395/${mainBody.stackOverflow}`" target="_blank" title="Stackoverflow" class="hover:scale-110 transition-all ease-out">
             <Icon name="logos:stackoverflow-icon" size="20" />

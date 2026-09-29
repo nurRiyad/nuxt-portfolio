@@ -1,7 +1,7 @@
 export const mainBody = {
   name: 'Al Asad Nur Riyad',
   email: 'asadnurriyad@gmail.com',
-  about: 'Hi, I am a full-time software engineer building web applications for more than three years with TypeScript, JavaScript & Node.js. currently working at @FieldNation as Software Engineer',
+  about: 'Software engineer with 5 years of experience building distributed systems and microservices. I work with Node.js, PHP, and Go, and explore AI agents and intelligent workflows. Currently building reliable services at Field Nation.',
   twitter: 'qdnvubp',
   github: 'nurRiyad',
   linkedIn: 'nur-riyad',

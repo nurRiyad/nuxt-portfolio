@@ -55,7 +55,7 @@ useSeoMeta({
           <UButton
             :aria-label="`${user.name}'s GitHub profile`"
             :icon="colorMode.value === 'dark' ? 'i-lucide-moon' : 'i-lucide-sun'"
-            color="gray"
+            color="neutral"
             variant="link"
             @click="colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'"
           />
@@ -69,7 +69,7 @@ useSeoMeta({
           target="_blank"
           :aria-label="`${user.name}'s GitHub profile`"
           icon="i-lucide-github"
-          color="gray"
+          color="neutral"
           variant="link"
         />
         <UButton
@@ -78,7 +78,7 @@ useSeoMeta({
           target="_blank"
           aria-label="RSS Feed"
           icon="i-lucide-rss"
-          color="gray"
+          color="neutral"
           variant="link"
         />
       </div>

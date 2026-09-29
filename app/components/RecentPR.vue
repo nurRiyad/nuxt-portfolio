@@ -3,8 +3,7 @@ import type { Contributions } from '@@/types'
 
 const { data: contributions, error, pending } = await useFetch<Contributions>('/api/contributions')
 
-const prs = computed(() => contributions.value?.prs ?? [])
-const recentPrs = computed(() => prs.value.filter((_: unknown, ind: number) => ind < 5))
+const recentActivities = computed(() => (contributions.value?.activities ?? []).slice(0, 5))
 </script>
 
 <template>
@@ -25,13 +24,13 @@ const recentPrs = computed(() => prs.value.filter((_: unknown, ind: number) => i
         {{ error.message || 'An error occurred' }}
       </p>
     </div>
-    <div v-else-if="recentPrs.length === 0" class="flex items-center justify-center py-8">
+    <div v-else-if="recentActivities.length === 0" class="flex items-center justify-center py-8">
       <p class="text-gray-500 dark:text-gray-400">
         No recent activity found
       </p>
     </div>
     <div v-else class="flex flex-col gap-2">
-      <CardPullRequest v-for="pr of recentPrs" :key="pr.url" :data="pr" />
+      <CardActivity v-for="activity of recentActivities" :key="activity.url" :data="activity" />
     </div>
   </div>
 </template>

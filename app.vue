@@ -62,7 +62,7 @@ useHead({
 })
 
 // Generate OG Image
-defineOgImageComponent('About', {
+defineOgImage('About', {
   headline: 'Greetings 👋',
   title: 'Al Asad Nur Riyad',
   description: 'Software Engineer @FieldNation',

@@ -1,9 +1,9 @@
 # Personal Portfolio
 
-### Built with
+## Built with
 
 <p align="center">
-    <img width="200" src="./app/assets/img/logo.png">
+    <img width="200" src="./app/assets/img/logo.png" alt="Riyad's portfolio logo">
 </p>
 
 Hacker News clone built with [Nuxt3](https://nuxt.com), [Vue3](https://vuejs.org) & [TailwindCss](https://tailwindcss.com/)
@@ -21,7 +21,7 @@ Hacker News clone built with [Nuxt3](https://nuxt.com), [Vue3](https://vuejs.org
 
 <p align="center">
   <a href="https://nurriyad.com" target="_blank">
-    <img width="1090" src="./app/assets/img/screely-1.png">
+    <img width="1090" src="./app/assets/img/screely-1.png" alt="Screenshot preview of the portfolio website">
     <br>
     Live Demo
   </a>

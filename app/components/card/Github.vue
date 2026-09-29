@@ -22,7 +22,7 @@ import { github } from '../../data/info'
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="ic:outline-commit" size="20" class="dark:text-cyan-500" />
-          <p>Total Contribution {{ github.contribution }}</p>
+          <p>Total Commits {{ github.commits }}</p>
         </div>
         <div class="flex items-center space-x-2">
           <Icon name="ph:git-pull-request" size="20" class="dark:text-cyan-500" />
